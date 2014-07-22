@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Salesforce Developer Workshop</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-721308-2', 'ccoenraets.github.io');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Salesforce1 App Developer Tutorial</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a
+                        href="https://github.com/ccoenraets/salesforce-developer-workshop"><img
+                        src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>
+                    GitHub
+                    Project</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="row">
+
+    <div class="col-xs-12 col-sm-8">
+        <h1>Module 3&#58; Creating the Expense Object</h1>
+        <!--<hr/>-->
+        <p>In this module, you create the Expense object used to track expenses.</p>
+
+<h2>Step 1: Create the Expense Object</h2>
+
+<ol>
+<li><p>Login into your Developer Edition account</p></li>
+<li><p>Click the <strong>Setup</strong> link (upper right corner)</p>
+
+<p><img src="images/setup.jpg" alt=""></p></li>
+<li><p>In the left navigation, select <strong>Build</strong> &gt; <strong>Create</strong> &gt; <strong>Objects</strong></p>
+
+<p><img src="images/custom-object.jpg" alt=""></p></li>
+<li><p>Click <strong>New Custom Object</strong>, and define the Expense object as follows (accept the default values for the properties 
+that are not mentioned below):</p>
+
+<ul>
+<li>Label: <strong>Expense</strong></li>
+<li>Plural Label: <strong>Expenses</strong></li>
+<li>Starts with vowel sound: <strong>Checked</strong></li>
+<li>Object Name: <strong>Expense</strong></li>
+<li>Record Name: <strong>Expense Id</strong></li>
+<li>Data Type: <strong>Auto Number</strong></li>
+<li>Display Format: <strong>EXP-{00000}</strong></li>
+<li>Starting Number: <strong>1</strong></li>
+</ul>
+
+<p><img src="images/expense_object.jpg" alt=""></p></li>
+<li><p>Click <strong>Save</strong></p></li>
+</ol>
+
+<h2>Step 2: Create Custom Fields</h2>
+
+<ol>
+<li><p>In the <strong>Custom Fields &amp; Relationships</strong> section, click <strong>New</strong>, and create a <strong>Category</strong> field defined as follows:</p>
+
+<ul>
+<li>Data Type: <strong>Picklist</strong></li>
+<li>Field Label: <strong>Category</strong></li>
+<li>Values: <strong>Taxi</strong>, <strong>Airfare</strong>, <strong>Hotel</strong>, <strong>Restaurant</strong> (specify each value on its own row)</li>
+<li>Use first value as default value: <strong>Checked</strong></li>
+<li>Field Name: <strong>Category</strong></li>
+</ul>
+
+<p><img src="images/category_field.jpg" alt=""></p>
+
+<p>Click <strong>Next</strong>, <strong>Next</strong>, <strong>Save &amp; New</strong></p></li>
+<li><p>Create an <strong>Expense Date</strong> field defined as follows:</p>
+
+<ul>
+<li>Data Type: <strong>Date</strong></li>
+<li>Field Label: <strong>Expense Date</strong></li>
+<li>Field Name: <strong>Expense_Date</strong></li>
+<li>Required: <strong>Checked</strong></li>
+</ul>
+
+<p>Click <strong>Next</strong>, <strong>Next</strong>, <strong>Save &amp; New</strong></p></li>
+<li><p>Create an <strong>Amount</strong> field defined as follows:</p>
+
+<ul>
+<li>Data Type: <strong>Currency</strong></li>
+<li>Field Label: <strong>Amount</strong></li>
+<li>Length: <strong>5</strong></li>
+<li>Decimal Places: <strong>2</strong></li>
+<li>Field Name: <strong>Amount</strong></li>
+<li>Required: <strong>Checked</strong></li>
+</ul>
+
+<p>Click <strong>Next</strong>, <strong>Next</strong>, <strong>Save &amp; New</strong></p></li>
+<li><p>Create a <strong>Description</strong> field defined as follows:</p>
+
+<ul>
+<li>Data Type: <strong>Text Area</strong></li>
+<li>Field Label: <strong>Description</strong></li>
+<li>Field Name: <strong>Description</strong></li>
+</ul>
+
+<p>Click <strong>Next</strong>, <strong>Next</strong>, <strong>Save</strong></p></li>
+</ol>
+
+<div class="row" style="margin-top:40px;">
+<div class="col-sm-12">
+<a href="install-salesforce1-app.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> 
+Previous</a>
+<a href="create-expenses-tab.html" class="btn btn-default pull-right">Next <i class="glyphicon 
+glyphicon-chevron-right"></i></a>
+</div>
+
+<p></div></p>
+
+
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-xs-12">
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname = 'salesforcedeveloperworkshop'; // required: replace example with your forum shortname
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function() {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="col-xs-12 col-sm-4 right-nav">
+
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+            <div class="panel-heading" style="font-variant:small-caps;font-size: 18px;">modules</div>
+            <ol class="list-group">
+                <li><a href="developer-edition.html">Creating a Developer Edition Account</a></li>
+                <li><a href="install-salesforce1-app.html">Installing the Salesforce1 App</a></li>
+                <li><a href="create-expense-object.html">Creating the Expense Object</a></li>
+                <li><a href="create-expenses-tab.html">Creating the Expenses Tab</a></li>
+                <li><a href="manage-expenses-in-s1.html">Managing Expenses in the S1 Mobile App</a></li>
+                <li><a href="create-mobile-layout.html">Creating a Mobile Layout</a></li>
+                <li><a href="create-compact-layout.html">Creating a Compact Layout</a></li>
+                <li><a href="create-global-action.html">Creating a Global Action</a></li>
+                <li><a href="related-objects.html">Working with Related Objects</a></li>
+                <li><a href="object-action-create-record.html">Creating a Child Record with an Object Action</a></li>
+                <li><a href="object-action-update-record.html">Updating a Record with an Object Action</a></li>
+                <li><a href="mobile-card.html">Working with Mobile Cards</a></li>
+            </ol>
+            <hr/>
+            <div style="margin: -8px 0 12px 14px">
+                <a href="next.html">Next Steps</a>
+            </div>
+        </div>
+<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce-developer-workshop" data-text="Salesforce Developer Workshop: New fast-track tutorial to #Salesforce development">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+    </div>
+
+</div>
+
+</div>
+
+<div class="container">
+    <div id="footer">
+        <p class="text-muted">Salesforce Developer Workshop, 2014.</p>
+    </div>    <!-- Site footer -->
+</div>
+
+
+<script src="lib/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
