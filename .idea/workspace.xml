@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79a9f043-9e26-470e-8c8f-689616ec66cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/bootstrap-header.html" afterPath="$PROJECT_DIR$/_includes/bootstrap-header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.md" afterPath="$PROJECT_DIR$/index.md" />
     </list>
     <ignored path="salesforce1-app-tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,23 +102,23 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.md" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="index.md" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.md">
               <provider editor-type-id="MarkdownPreviewEditor">
                 <state />
               </provider>
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-38.51852" vertical-offset="70" max-vertical-offset="1305">
-                  <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+                <state vertical-scroll-proportion="0.8278689" vertical-offset="70" max-vertical-offset="1305">
+                  <caret line="69" column="58" selection-start-line="69" selection-start-column="58" selection-end-line="69" selection-end-column="58" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bootstrap-header.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="bootstrap-header.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_includes/bootstrap-header.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.12264922" vertical-offset="0" max-vertical-offset="1223">
+                <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="1005">
                   <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
                   <folding />
                 </state>
@@ -194,8 +194,8 @@
         <option value="$PROJECT_DIR$/mobile-card.md" />
         <option value="$PROJECT_DIR$/next.md" />
         <option value="$PROJECT_DIR$/object-action-update-record.md" />
-        <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/_includes/bootstrap-header.html" />
+        <option value="$PROJECT_DIR$/index.md" />
       </list>
     </option>
   </component>
@@ -346,7 +346,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -532,21 +532,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/bootstrap-header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-38.51852" vertical-offset="70" max-vertical-offset="1305">
-          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/bootstrap-header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12264922" vertical-offset="0" max-vertical-offset="1223">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.8278689" vertical-offset="70" max-vertical-offset="1305">
+          <caret line="69" column="58" selection-start-line="69" selection-start-column="58" selection-end-line="69" selection-end-column="58" />
           <folding />
         </state>
       </provider>

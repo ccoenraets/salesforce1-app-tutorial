@@ -67,7 +67,7 @@ An Expense Management application is a great use case for a tutorial: It's a wel
 I also want to acknowledge Andres Perez who wrote an [expense tracking sample application](http://www.eltoro.it/apex/ArticleViewer?id=a07A000000T3GOpIAN) for the Salesforce1 App way before me. Our implementations are very 
 different which is a testament to the versatility of the Salesforce1 Platform: Andres' implementation is more 
 code-centric, and 
-leverages jQuery Mobile. I encourage you to check it out.
+leverages jQuery Mobile. I encourage you to check it out. This implementation is mostly declarative.
 
 
 <div class="row" style="margin-top:40px;">
