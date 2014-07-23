@@ -2,6 +2,10 @@
 layout: module
 title: Module 11&#58; Updating a Record with an Object Action
 ---
+In this module, 
+you create another Object Action for the Expense Report object. The action allows the user to quickly change the status
+ of 
+the current expense report.
 
 ## Step 1: Create the Object Action
 
@@ -31,7 +35,7 @@ title: Module 11&#58; Updating a Record with an Object Action
 
     ![](images/predefined_value.png) 
 
-1. Click Save
+1. Click **Save**
 
 ## Step 3: Modify the Publisher Actions Layout
 
