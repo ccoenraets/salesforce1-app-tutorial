@@ -42,8 +42,11 @@ needed. In this module, you create a compact layout for the expense object.
  
 1. In the menu, tap **Expenses** under **Recent**
  
-1. Tap an expense in the list to see the details screen. Notice that the record highlight displays the four fields 
+1. Tap an expense in the list to see the details. Notice that the Record Highlights section displays the four fields 
 you selected in the compact layout.
+ 
+    > If you don't see the summary fields in the Records Highlights section, pull (swipe down and release) the view to 
+    refresh it.  
  
     ![](images/record_highlight.png)
 

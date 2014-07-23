@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79a9f043-9e26-470e-8c8f-689616ec66cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/create-mobile-layout.html" afterPath="$PROJECT_DIR$/_site/create-mobile-layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-mobile-layout.md" afterPath="$PROJECT_DIR$/create-mobile-layout.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/record_highlight.png" afterPath="$PROJECT_DIR$/_site/images/record_highlight.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/record_highlight.png" afterPath="$PROJECT_DIR$/images/record_highlight.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/create-compact-layout.html" afterPath="$PROJECT_DIR$/_site/create-compact-layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-compact-layout.md" afterPath="$PROJECT_DIR$/create-compact-layout.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/create-global-action.html" afterPath="$PROJECT_DIR$/_site/create-global-action.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-global-action.md" afterPath="$PROJECT_DIR$/create-global-action.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="salesforce1-app-tutorial.iws" />
@@ -27,32 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.666666" vertical-offset="0" max-vertical-offset="1845">
-              <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="developer-edition.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer-edition.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.444445" vertical-offset="0" max-vertical-offset="900">
-              <caret line="17" column="125" selection-start-line="17" selection-start-column="125" selection-end-line="17" selection-end-column="125" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="install-salesforce1-app.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/install-salesforce1-app.md">
           <provider editor-type-id="MarkdownPreviewEditor">
@@ -92,14 +70,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create-mobile-layout.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="create-mobile-layout.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create-mobile-layout.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5876592" vertical-offset="0" max-vertical-offset="1245">
+            <state vertical-scroll-proportion="-22.222221" vertical-offset="0" max-vertical-offset="1245">
               <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create-compact-layout.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create-compact-layout.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-32.77778" vertical-offset="0" max-vertical-offset="975">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -154,6 +145,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="create-global-action.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/create-global-action.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.08814888" vertical-offset="0" max-vertical-offset="1155">
+              <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -168,8 +172,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/create-expense-object.md" />
-        <option value="$PROJECT_DIR$/create-compact-layout.md" />
-        <option value="$PROJECT_DIR$/create-global-action.md" />
         <option value="$PROJECT_DIR$/related-objects.md" />
         <option value="$PROJECT_DIR$/object-action-create-record.md" />
         <option value="$PROJECT_DIR$/mobile-card.md" />
@@ -184,12 +186,14 @@
         <option value="$PROJECT_DIR$/create-expenses-tab.md" />
         <option value="$PROJECT_DIR$/manage-expenses-in-s1.md" />
         <option value="$PROJECT_DIR$/create-mobile-layout.md" />
+        <option value="$PROJECT_DIR$/create-compact-layout.md" />
+        <option value="$PROJECT_DIR$/create-global-action.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1763" />
-    <option name="y" value="55" />
+    <option name="x" value="2352" />
+    <option name="y" value="83" />
     <option name="width" value="2151" />
     <option name="height" value="1168" />
   </component>
@@ -304,7 +308,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1763" y="55" width="2151" height="1168" extended-state="0" />
+    <frame x="2352" y="83" width="2151" height="1168" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -346,28 +350,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/create-compact-layout.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.11111" vertical-offset="0" max-vertical-offset="945">
-          <caret line="56" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create-global-action.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-37.22222" vertical-offset="0" max-vertical-offset="1155">
-          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/related-objects.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -532,8 +514,30 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5876592" vertical-offset="0" max-vertical-offset="1245">
+        <state vertical-scroll-proportion="-22.222221" vertical-offset="0" max-vertical-offset="1245">
           <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create-compact-layout.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-32.77778" vertical-offset="0" max-vertical-offset="975">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create-global-action.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08814888" vertical-offset="0" max-vertical-offset="1155">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
           <folding />
         </state>
       </provider>

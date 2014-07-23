@@ -2,8 +2,9 @@
 layout: module
 title: Module 8&#58; Creating a Global Action
 ---
-Global actions provide quick access to common tasks. In this module, you create a global action that allows the user 
-to create a new expense without having to navigate a complex menu structure.
+Global actions provide another way to quickly access common tasks. In this module, 
+you create a global action that allows the user 
+to create a new expense without having to navigate through the menu.
 
 ## Step 1: Create the Global Action
 
