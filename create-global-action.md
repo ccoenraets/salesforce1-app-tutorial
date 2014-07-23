@@ -26,9 +26,7 @@ are not mentioned below):
 
 ![](images/global_action_layout.png)
 
-1. Only **required fields** are included in the global action page layout by default. Drag the **Category** field and position it as the first field in the global action page layout
-
-1. Drag the **Description** field and position it as the last field in the global action page layout
+1. Drag the **Category** field and position it as the first field in the global action page layout
 
 1. Click **Save**
 
