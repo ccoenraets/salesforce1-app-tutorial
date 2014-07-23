@@ -37,7 +37,7 @@ properties that are not mentioned below):
 
 ## Step 2: Define the Master-Detail Relationship
 
-1. In the full site, **delete all the expenses** to avoid constraint issues
+1. In the full Salesforce.com app in your browser, **delete all the expenses** to avoid constraint issues
 
 1. In Setup, select **Build** > **Create** > **Objects** and click the **Expense** link
 
@@ -74,8 +74,8 @@ follows:
 
 ## Step 4: Creating a Tab
 
-In this step, you create a Tab to provide access to the **Expense Report** object both in the full salesforce.com app
- in your computer's browser and in the Salesforce1 mobile app.
+In this step, you create a Tab to provide access to the **Expense Report** object both in the full Salesforce.com app
+ in your browser and in the Salesforce1 mobile app.
 
 1. In **Setup** mode, select **Build** > **Create** > **Tabs**
 
@@ -97,6 +97,8 @@ icon
  
 1. Tap **Expense Reports**
 
+    > If **Expense Reports** doesn't appear under **More...**, pull (swipe down and release) the menu to refresh it
+
 1. Tap **New**, and enter a new expense report
 
     ![](images/expense_report_new.png)
@@ -106,7 +108,7 @@ icon
     ![](images/expense_report_details.png)
 
     > If you get a message indicating that "The page you are trying to access is not available on mobile devices", 
-close the Salesforce1 Mobile App and restart it.
+close the Salesforce1 Mobile App and restart it. This will only happen once during development.
 
 1. Tap the menu icon ![](images/hamburger.png) (upper left corner)
  
@@ -124,15 +126,44 @@ close the Salesforce1 Mobile App and restart it.
 1. Tap the **Expenses** related list to display the list of expenses for that expense report
 
     ![](images/expenses_related_list.png)
+    
+    > If the list is empty, pull it (swipe down and release) to refresh it.
 
 1. Tap an expense to see the details
 
+
+## Step 6: Pin Expense Reports at the Top of the List
+
+For faster access, you can pin frequently used items at the top of the **Recent** menu item: you will no longer need 
+to go find an object deep under the **More...** item.  
+
+![](images/pin_expense_reports.png)
+
+1. In the full Salesforce.com app, click the Search button in the header
+
+    > You don't need to type anything in the search box: we just need the Search Results by Records to appear in the 
+    left navigation.  
+
+1. In the **Search Results** (left navigation), mouse over **Expense Reports**, and click the Pin button
+
+1. In the Salesforce1 mobile app, tap the menu icon ![](images/hamburger.png) (upper left corner)
+
+1. If **Expense Reports** doesn't appear as the first item under **Recent**, pull (swipe down and release) the menu to 
+refresh it
+
+    ![](images/s1_pin_expense_reports.png)
+
+
 ## Extra Credits
 
-1. Using the instructions in module 6 as a reference, create a Mobile Layout for the Expense Report object that only 
+1. Using the instructions in [Module 6](create-mobile-layout.html) as a reference, 
+create a Mobile Layout for the Expense Report object that 
+only 
 displays the information that mobile users really need
 
-1. Using the instructions in module 7 as a reference, create a Compact Layout for the Expense Report object so that the 
+1. Using the instructions in [Module 7](create-compact-layout.html) as a reference, 
+create a Compact Layout for the Expense Report object so that 
+the 
 record highlight area looks like this:
 
     ![](images/expense_report_compact.png)

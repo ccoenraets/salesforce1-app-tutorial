@@ -108,7 +108,7 @@ properties that are not mentioned below):</p>
 <h2>Step 2: Define the Master-Detail Relationship</h2>
 
 <ol>
-<li><p>In the full site, <strong>delete all the expenses</strong> to avoid constraint issues</p></li>
+<li><p>In the full Salesforce.com app in your browser, <strong>delete all the expenses</strong> to avoid constraint issues</p></li>
 <li><p>In Setup, select <strong>Build</strong> &gt; <strong>Create</strong> &gt; <strong>Objects</strong> and click the <strong>Expense</strong> link</p></li>
 <li><p>In the <strong>Custom Fields &amp; Relationships</strong> section, click <strong>New</strong>, and create an <strong>Expense Report</strong> field defined as 
 follows:</p>
@@ -149,8 +149,8 @@ follows:</p>
 
 <h2>Step 4: Creating a Tab</h2>
 
-<p>In this step, you create a Tab to provide access to the <strong>Expense Report</strong> object both in the full salesforce.com app
- in your computer&#39;s browser and in the Salesforce1 mobile app.</p>
+<p>In this step, you create a Tab to provide access to the <strong>Expense Report</strong> object both in the full Salesforce.com app
+ in your browser and in the Salesforce1 mobile app.</p>
 
 <ol>
 <li><p>In <strong>Setup</strong> mode, select <strong>Build</strong> &gt; <strong>Create</strong> &gt; <strong>Tabs</strong></p></li>
@@ -166,7 +166,11 @@ icon</p></li>
 <ol>
 <li><p>Tap the menu icon <img src="images/hamburger.png" alt=""> (upper left corner)</p></li>
 <li><p>In the menu, tap <strong>More...</strong> under <strong>Recent</strong></p></li>
-<li><p>Tap <strong>Expense Reports</strong></p></li>
+<li><p>Tap <strong>Expense Reports</strong></p>
+
+<blockquote>
+<p>If <strong>Expense Reports</strong> doesn&#39;t appear under <strong>More...</strong>, pull (swipe down and release) the menu to refresh it</p>
+</blockquote></li>
 <li><p>Tap <strong>New</strong>, and enter a new expense report</p>
 
 <p><img src="images/expense_report_new.png" alt=""></p></li>
@@ -176,7 +180,7 @@ icon</p></li>
 
 <blockquote>
 <p>If you get a message indicating that &quot;The page you are trying to access is not available on mobile devices&quot;, 
-close the Salesforce1 Mobile App and restart it.</p>
+close the Salesforce1 Mobile App and restart it. This will only happen once during development.</p>
 </blockquote></li>
 <li><p>Tap the menu icon <img src="images/hamburger.png" alt=""> (upper left corner)</p></li>
 <li><p>In the menu, tap <strong>Expenses</strong> under <strong>Recent</strong></p></li>
@@ -188,16 +192,46 @@ close the Salesforce1 Mobile App and restart it.</p>
 <img src="images/related_lists.png" alt=""></p></li>
 <li><p>Tap the <strong>Expenses</strong> related list to display the list of expenses for that expense report</p>
 
-<p><img src="images/expenses_related_list.png" alt=""></p></li>
+<p><img src="images/expenses_related_list.png" alt=""></p>
+
+<blockquote>
+<p>If the list is empty, pull it (swipe down and release) to refresh it.</p>
+</blockquote></li>
 <li><p>Tap an expense to see the details</p></li>
+</ol>
+
+<h2>Step 6: Pin Expense Reports at the Top of the List</h2>
+
+<p>For faster access, you can pin frequently used items at the top of the <strong>Recent</strong> menu item: you will no longer need 
+to go find an object deep under the <strong>More...</strong> item.  </p>
+
+<p><img src="images/pin_expense_reports.png" alt=""></p>
+
+<ol>
+<li><p>In the full Salesforce.com app, click the Search button in the header</p>
+
+<blockquote>
+<p>You don&#39;t need to type anything in the search box: we just need the Search Results by Records to appear in the 
+left navigation.  </p>
+</blockquote></li>
+<li><p>In the <strong>Search Results</strong> (left navigation), mouse over <strong>Expense Reports</strong>, and click the Pin button</p></li>
+<li><p>In the Salesforce1 mobile app, tap the menu icon <img src="images/hamburger.png" alt=""> (upper left corner)</p></li>
+<li><p>If <strong>Expense Reports</strong> doesn&#39;t appear as the first item under <strong>Recent</strong>, pull (swipe down and release) the menu to 
+refresh it</p>
+
+<p><img src="images/s1_pin_expense_reports.png" alt=""></p></li>
 </ol>
 
 <h2>Extra Credits</h2>
 
 <ol>
-<li><p>Using the instructions in module 6 as a reference, create a Mobile Layout for the Expense Report object that only 
+<li><p>Using the instructions in <a href="create-mobile-layout.html">Module 6</a> as a reference, 
+create a Mobile Layout for the Expense Report object that 
+only 
 displays the information that mobile users really need</p></li>
-<li><p>Using the instructions in module 7 as a reference, create a Compact Layout for the Expense Report object so that the 
+<li><p>Using the instructions in <a href="create-compact-layout.html">Module 7</a> as a reference, 
+create a Compact Layout for the Expense Report object so that 
+the 
 record highlight area looks like this:</p>
 
 <p><img src="images/expense_report_compact.png" alt=""></p></li>

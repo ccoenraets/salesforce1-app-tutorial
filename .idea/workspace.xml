@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79a9f043-9e26-470e-8c8f-689616ec66cc" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Accessing-Data-using-SOQL-and-DML.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Batch-and-Schedule.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Accessing-Data-using-SOQL-and-DML.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Batch-and-Schedule.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/related-objects.html" afterPath="$PROJECT_DIR$/_site/related-objects.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/related-objects.md" afterPath="$PROJECT_DIR$/related-objects.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -46,8 +50,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="1080">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            <state vertical-scroll-proportion="-31.666666" vertical-offset="0" max-vertical-offset="1080">
+              <caret line="57" column="35" selection-start-line="38" selection-start-column="0" selection-end-line="57" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -147,8 +151,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08814888" vertical-offset="0" max-vertical-offset="2265">
-              <caret line="6" column="114" selection-start-line="6" selection-start-column="114" selection-end-line="6" selection-end-column="114" />
+            <state vertical-scroll-proportion="0.3682664" vertical-offset="1709" max-vertical-offset="2730">
+              <caret line="139" column="30" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -188,7 +192,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2352" />
+    <option name="x" value="1756" />
     <option name="y" value="83" />
     <option name="width" value="2151" />
     <option name="height" value="1168" />
@@ -234,6 +238,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="salesforce1-app-tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="salesforce1-app-tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="salesforce1-app-tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,7 +322,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2352" y="83" width="2151" height="1168" extended-state="0" />
+    <frame x="1756" y="83" width="2151" height="1168" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -483,17 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage-expenses-in-s1.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="1080">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/create-mobile-layout.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -527,13 +534,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/manage-expenses-in-s1.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.666666" vertical-offset="0" max-vertical-offset="1080">
+          <caret line="57" column="35" selection-start-line="38" selection-start-column="0" selection-end-line="57" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/related-objects.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08814888" vertical-offset="0" max-vertical-offset="2265">
-          <caret line="6" column="114" selection-start-line="6" selection-start-column="114" selection-end-line="6" selection-end-column="114" />
+        <state vertical-scroll-proportion="0.3682664" vertical-offset="1709" max-vertical-offset="2730">
+          <caret line="139" column="30" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
           <folding />
         </state>
       </provider>
