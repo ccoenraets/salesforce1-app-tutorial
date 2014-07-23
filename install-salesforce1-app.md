@@ -6,12 +6,12 @@ In this module, you install the Salesforce1 Mobile Application on your device.
 
 > If you already installed Salesforce1 on your device, logout from the application, 
 and login again using your credentials for the developer edition you created in Module 1. You can then skip this 
-module and go directly to [Module 3](create-custom-object.html).
+module and go directly to [Module 3](create-expense-object.html).
 
 ## Step 1: Install the Salesforce1 Mobile App
 
 > **You don't need a mobile device to complete this tutorial**: You can emulate the Salesforce1 app in your 
-computer's browser. Instructions are provided in Step 2.
+computer's browser. Instructions are provided in Step 2 below.
 
 To install the Salesforce1 mobile app, you need one of the following devices:
 
@@ -33,8 +33,8 @@ and install the Salesforce1 application for your platform
 
 ## Step 2: Emulating the Salesforce1 Mobile App
 
-If you don't have a supported device available, or to quickly test something during development, 
-you can also simulate (emulate) the Salesforce1 app in your computer's browser:
+If you don't have a supported device available, or if you want to quickly test something during development, 
+you can also emulate the Salesforce1 app in your computer's browser:
 
 1. Open a browser on your computer
 

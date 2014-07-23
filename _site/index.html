@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>Salesforce Developer Workshop</title>
+    <title>Salesforce App Tutorial</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Salesforce1 App Developer Tutorial</a>
+            <a class="navbar-brand" href="index.html">Salesforce1 App Tutorial</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -79,7 +79,7 @@
     <div class="container">
         <div class="row" style="text-align: center">
             <div style="margin-left: 30px;">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce-developer-workshop" data-text="Salesforce Developer Workshop: A new fast-track tutorial to #Salesforce development">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="Salesforce 1 App Tutorial for Developers">Tweet</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
             </div>
         </div>
@@ -87,10 +87,9 @@
 </div>
 
 <div class="container">
-    <p>In this tutorial, you create an expense report mobile application in Salesforce1. The application allows users to add
+    <p>In this tutorial, you create an expense report mobile application in Salesforce1. The application allows users to enter
  expenses, assign them to expense reports, and submit expense reports for approval. In the first part of the 
- tutorial, you build the entire application declaratively (without writing code). In the second part of the 
- tutorial, you use code to add advanced features to the application. </p>
+ tutorial, you build the entire application declaratively (without writing code). In the second part, you use code to add advanced features to the application. </p>
 
 <h2>What You Will Learn</h2>
 
@@ -102,9 +101,9 @@
 <li>Create Object Actions</li>
 <li>Create Mobile Cards</li>
 <li>Work with Related Lists</li>
-<li>Use Visualforce pages in Salesforce1</li>
-<li>Capture pictures from a Salesforce1 App</li>
-<li>Capture the User Location</li>
+<li>Use Visualforce Pages in Salesforce1</li>
+<li>Capture pictures in a Salesforce1 App</li>
+<li>Capture the User Location in a Salesforce1 App</li>
 </ul>
 
 <h2>Prerequisites</h2>
@@ -117,8 +116,8 @@
 <h2>Device Requirements</h2>
 
 <blockquote>
-<p><strong>You don&#39;t need a mobile device to complete this tutorial</strong>: You can emulate the Salesforce1 app in your 
-computer&#39;s browser. Instructions are provided in Module 2.</p>
+<p><strong>You don&#39;t need a mobile device to complete this tutorial:</strong> You can emulate the Salesforce1 mobile app in your 
+computer&#39;s browser. Instructions are provided in <a href="install-salesforce1-app.html">Module 2</a>.</p>
 </blockquote>
 
 <p>To install the Salesforce1 mobile app, you need one of the following devices:</p>
@@ -129,11 +128,11 @@ computer&#39;s browser. Instructions are provided in Module 2.</p>
 </ul>
 
 <p>If your device is not supported to install the Salesforce1 mobile app, you can run Salesforce1 in
- the device&#39;s browser on a larger number of devices. Consult <a href="http://help%0A.salesforce.com/apex/HTViewHelpDoc?id=sf1_requirements.htm">this document</a> for details. </p>
+ the device&#39;s browser on a larger number of devices. Consult <a href="http://help%0A.salesforce.com/apex/HTViewHelpDoc?id=sf1_requirements.htm">this document</a> for more information. </p>
 
 <h2>Browser Requirements</h2>
 
-<p>The following browsers are supported when working with the Developer Console:</p>
+<p>The following browsers are supported when working with the Developer Console (used for the programmatic modules only):</p>
 
 <ul>
 <li>Most recent version of Google Chrome</li>
@@ -145,8 +144,8 @@ computer&#39;s browser. Instructions are provided in Module 2.</p>
 <h2>Reporting Issues</h2>
 
 <ul>
-<li>Please create an issue <a href="https://github.com/ccoenraets/salesforce1app-developer-tutorial/issues">here</a> if you run 
-into any problem or if you have a suggestion to improve this Tutorial.</li>
+<li>Please create an issue <a href="https://github.com/ccoenraets/salesforce1-app-tutorial/issues">here</a> if you run 
+into any problem or if you have a suggestion to improve this tutorial.</li>
 <li>You can also use the Comments section at the bottom of each module to ask a question or report a problem.</li>
 </ul>
 
@@ -158,7 +157,7 @@ into any problem or if you have a suggestion to improve this Tutorial.</li>
 <p>I also want to acknowledge Andres Perez who wrote an <a href="http://www.eltoro.it/apex/ArticleViewer?id=a07A000000T3GOpIAN">expense tracking sample application</a> for the Salesforce1 App way before me. Our implementations are very 
 different which is a testament to the versatility of the Salesforce1 Platform: Andres&#39; implementation is more 
 code-centric, and 
-leverages jQuery Mobile. I encourage you to check it out.</p>
+leverages jQuery Mobile. I encourage you to check it out. This implementation is mostly declarative.</p>
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">

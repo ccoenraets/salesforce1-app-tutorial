@@ -2,9 +2,9 @@
 layout: module
 title: Module 4&#58; Creating the Expenses Tab
 ---
-In this module, you create a Tab to provide access to the Expense object both in the full salesforce.com app in your 
-computer's browser and in the Salesforce1 mobile app. You also create an Application to provide quick access to the Expenses tab in the full 
-salesforce.com app. 
+In this module, you create a Tab to provide access to the Expense object both in the full Salesforce.com app in your 
+computer's browser and in the Salesforce1 mobile app. You also create an Application to provide quick access to the 
+Expenses tab while working in the full Salesforce.com app. 
 
 ![](images/expenses_app.jpg)
 
@@ -18,16 +18,17 @@ salesforce.com app.
 
 1. Click **Next**, **Next**
 
-1. Uncheck the **Include Tab** checkbox to ensure the Expenses tab doesn't appear in any of the existing applications, 
-and click **Save** (In step 2, you will add the Expenses tab to a new application).
+1. Uncheck the **Include Tab** checkbox to ensure the Expenses tab doesn't appear in any of the existing applications (In step 2, you will add the Expenses tab to a new application)
+
+1. Click **Save**
 
 
 ## Step 2: Creating the App
 
 A Salesforce App is a group of Tabs that makes it easy for users to access a set of related features in the 
-full salesforce.com browser app.
+full Salesforce.com browser app.
 
-> The concept of App to organize Tabs is not used in the Salesforce1 Mobile App.
+> The concept of App as a way to organize Tabs is not used in the Salesforce1 mobile app.
 
 
 1. In **Setup** mode, select **Build** > **Create** > **Apps**

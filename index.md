@@ -2,10 +2,9 @@
 layout: home
 title: Salesforce1 App Developer Tutorial
 ---
-In this tutorial, you create an expense report mobile application in Salesforce1. The application allows users to add
+In this tutorial, you create an expense report mobile application in Salesforce1. The application allows users to enter
  expenses, assign them to expense reports, and submit expense reports for approval. In the first part of the 
- tutorial, you build the entire application declaratively (without writing code). In the second part of the 
- tutorial, you use code to add advanced features to the application. 
+ tutorial, you build the entire application declaratively (without writing code). In the second part, you use code to add advanced features to the application. 
 
 ## What You Will Learn
 
@@ -16,9 +15,9 @@ In this tutorial, you create an expense report mobile application in Salesforce1
 - Create Object Actions
 - Create Mobile Cards
 - Work with Related Lists
-- Use Visualforce pages in Salesforce1
-- Capture pictures from a Salesforce1 App
-- Capture the User Location
+- Use Visualforce Pages in Salesforce1
+- Capture pictures in a Salesforce1 App
+- Capture the User Location in a Salesforce1 App
 
 
 ## Prerequisites
@@ -29,8 +28,8 @@ In this tutorial, you create an expense report mobile application in Salesforce1
 
 ## Device Requirements
 
-> **You don't need a mobile device to complete this tutorial**: You can emulate the Salesforce1 app in your 
-computer's browser. Instructions are provided in Module 2.
+> **You don't need a mobile device to complete this tutorial:** You can emulate the Salesforce1 mobile app in your 
+computer's browser. Instructions are provided in [Module 2](install-salesforce1-app.html).
 
 To install the Salesforce1 mobile app, you need one of the following devices:
 
@@ -39,12 +38,12 @@ To install the Salesforce1 mobile app, you need one of the following devices:
 
 If your device is not supported to install the Salesforce1 mobile app, you can run Salesforce1 in
  the device's browser on a larger number of devices. Consult [this document](http://help
-.salesforce.com/apex/HTViewHelpDoc?id=sf1_requirements.htm) for details. 
+.salesforce.com/apex/HTViewHelpDoc?id=sf1_requirements.htm) for more information. 
 
 
 ## Browser Requirements
 
-The following browsers are supported when working with the Developer Console:
+The following browsers are supported when working with the Developer Console (used for the programmatic modules only):
 
   - Most recent version of Google Chrome
   - Most recent version of Mozilla Firefox
@@ -54,8 +53,8 @@ The following browsers are supported when working with the Developer Console:
 
 ## Reporting Issues
 
-- Please create an issue [here](https://github.com/ccoenraets/salesforce1app-developer-tutorial/issues) if you run 
-into any problem or if you have a suggestion to improve this Tutorial.
+- Please create an issue [here](https://github.com/ccoenraets/salesforce1-app-tutorial/issues) if you run 
+into any problem or if you have a suggestion to improve this tutorial.
 - You can also use the Comments section at the bottom of each module to ask a question or report a problem.
 
 
