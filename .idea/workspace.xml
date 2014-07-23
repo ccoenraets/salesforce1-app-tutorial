@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79a9f043-9e26-470e-8c8f-689616ec66cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/manage-expenses-in-s1.html" afterPath="$PROJECT_DIR$/_site/manage-expenses-in-s1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage-expenses-in-s1.md" afterPath="$PROJECT_DIR$/manage-expenses-in-s1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/create-mobile-layout.html" afterPath="$PROJECT_DIR$/_site/create-mobile-layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-mobile-layout.md" afterPath="$PROJECT_DIR$/create-mobile-layout.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="salesforce1-app-tutorial.iws" />
@@ -27,19 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="object-action-update-record.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/object-action-update-record.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.1111112" vertical-offset="0" max-vertical-offset="1485">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider editor-type-id="MarkdownPreviewEditor">
@@ -92,14 +79,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage-expenses-in-s1.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="manage-expenses-in-s1.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage-expenses-in-s1.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10284035" vertical-offset="0" max-vertical-offset="1080">
+            <state vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="1080">
               <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create-mobile-layout.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/create-mobile-layout.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5876592" vertical-offset="0" max-vertical-offset="1245">
+              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -168,7 +168,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/create-expense-object.md" />
-        <option value="$PROJECT_DIR$/create-mobile-layout.md" />
         <option value="$PROJECT_DIR$/create-compact-layout.md" />
         <option value="$PROJECT_DIR$/create-global-action.md" />
         <option value="$PROJECT_DIR$/related-objects.md" />
@@ -184,6 +183,7 @@
         <option value="$PROJECT_DIR$/install-salesforce1-app.md" />
         <option value="$PROJECT_DIR$/create-expenses-tab.md" />
         <option value="$PROJECT_DIR$/manage-expenses-in-s1.md" />
+        <option value="$PROJECT_DIR$/create-mobile-layout.md" />
       </list>
     </option>
   </component>
@@ -346,17 +346,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/create-mobile-layout.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-39.62963" vertical-offset="25" max-vertical-offset="1245">
-          <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/create-compact-layout.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -532,8 +521,19 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10284035" vertical-offset="0" max-vertical-offset="1080">
+        <state vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="1080">
           <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create-mobile-layout.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5876592" vertical-offset="0" max-vertical-offset="1245">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
           <folding />
         </state>
       </provider>

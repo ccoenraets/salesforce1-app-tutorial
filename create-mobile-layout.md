@@ -2,8 +2,9 @@
 layout: module
 title: Module 6&#58; Creating a Mobile Layout
 ---
-To keep an application usable on a small screen, it is important to avoid clutter and only display the information a 
-mobile user really needs. In this module, you create a mobile-optimized layout to display expenses.
+To keep an application usable on a small screen, it is important to avoid clutter and only display the information 
+mobile users really need. In this module, you create a new layout that is optimized to work with expenses on a mobile 
+device.
 
 ## Step 1: Create the Mobile Layout
 
