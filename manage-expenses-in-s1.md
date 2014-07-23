@@ -4,14 +4,18 @@ title: Module 5&#58; Managing Expenses in the Mobile App
 ---
 When you create a Tab for an object, that object becomes automatically available in the Salesforce1 Mobile App. In 
 this module, you experiment with viewing, creating, and editing expenses in the Salesforce1 Mobile App.
-## Steps
+
+## Step 1: Create an Expense in Salesforce1
 
 1. Open the Salesforce1 app on your mobile device 
 
-    > You can also emaulate the Salesforce1 mobile app in your computer browser as
+    > You can also emulate the Salesforce1 mobile app in your computer browser as
  explained in [Module 2](install-salesforce1-app.html).
 
 1. Tap the menu icon ![](images/hamburger.png) (upper left corner)
+
+    > Understand **Click** instead of **Tap** in the remaining of this tutorial if you are emulating the Salesforce1 app
+     in your computer browser. 
  
 1. In the menu, tap **More...** under **Recent**
  
@@ -19,7 +23,7 @@ this module, you experiment with viewing, creating, and editing expenses in the 
 
     ![](images/expense_list.png)
 
-1. Tap an expense in the list to display the expense details screen
+1. Tap an expense in the list to display the expense details
  
     ![](images/expense_details.png)
 
@@ -30,6 +34,28 @@ this module, you experiment with viewing, creating, and editing expenses in the 
     ![](images/expense_new.png)
  
 1. Tap Save (upper right corner)
+
+
+## Step 2: Pin Expenses at the Top of the List
+
+For faster access, you can pin frequently used items at the top of the **Recent** menu item: you will no longer need 
+to go find an object deep under the **More...** item.  
+
+![](images/pin_expenses.png)
+
+1. In the full site, click the Search button in the header
+
+    > You don't need to type anything in the search box: we just need the Search Results by Records to appear in the 
+    left navigation.  
+
+1. In the **Search Results** (left navigation), mouse over **Expenses**, and click the Pin button
+
+1. In the Salesforce1 mobile app, tap the menu icon ![](images/hamburger.png) (upper left corner)
+
+1. If **Expenses** doesn't appear as the first item under **Recent**, pull (swipe down and release) the menu to 
+refresh it
+
+    ![](images/s1_pin_expenses.png)
 
 
 <div class="row" style="margin-top:40px;">
