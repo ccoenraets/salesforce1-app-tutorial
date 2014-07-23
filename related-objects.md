@@ -4,9 +4,8 @@ title: Module 9&#58; Working with Related Objects
 ---
 Salesforce1 makes it easy to navigate through related objects. In this module, you create a new Expense Report 
 object and you define a Master-Detail Relationship between Expense Report and Expense. You then use the Salesforce1 
-Mobile 
-App to create expenses that belong to an expense report, and to visualize all the expenses for an expense report and 
-their total.
+Mobile App to create expenses that belong to an expense report. You can then visualize expenses by expense report, and
+ see the expense report total.
 
 ## Step 1: Create the Expense Report Object
 
