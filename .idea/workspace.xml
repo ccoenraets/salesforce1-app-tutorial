@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79a9f043-9e26-470e-8c8f-689616ec66cc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Accessing-Data-using-SOQL-and-DML.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Batch-and-Schedule.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Accessing-Data-using-SOQL-and-DML.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Batch-and-Schedule.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/related-objects.html" afterPath="$PROJECT_DIR$/_site/related-objects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/related-objects.md" afterPath="$PROJECT_DIR$/related-objects.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/object-action-create-record.html" afterPath="$PROJECT_DIR$/_site/object-action-create-record.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/object-action-create-record.md" afterPath="$PROJECT_DIR$/object-action-create-record.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="salesforce1-app-tutorial.iws" />
@@ -96,19 +92,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="1035">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bootstrap-header.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/bootstrap-header.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -145,14 +128,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="related-objects.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="related-objects.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/related-objects.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3682664" vertical-offset="1709" max-vertical-offset="2730">
+            <state vertical-scroll-proportion="-77.22222" vertical-offset="0" max-vertical-offset="2730">
               <caret line="139" column="30" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="object-action-create-record.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/object-action-create-record.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6637168" vertical-offset="0" max-vertical-offset="1260">
+              <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -172,7 +168,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/create-expense-object.md" />
-        <option value="$PROJECT_DIR$/object-action-create-record.md" />
         <option value="$PROJECT_DIR$/mobile-card.md" />
         <option value="$PROJECT_DIR$/next.md" />
         <option value="$PROJECT_DIR$/object-action-update-record.md" />
@@ -188,14 +183,15 @@
         <option value="$PROJECT_DIR$/create-compact-layout.md" />
         <option value="$PROJECT_DIR$/create-global-action.md" />
         <option value="$PROJECT_DIR$/related-objects.md" />
+        <option value="$PROJECT_DIR$/object-action-create-record.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1756" />
-    <option name="y" value="83" />
-    <option name="width" value="2151" />
-    <option name="height" value="1168" />
+    <option name="x" value="1440" />
+    <option name="y" value="22" />
+    <option name="width" value="2560" />
+    <option name="height" value="1367" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -322,14 +318,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1756" y="83" width="2151" height="1168" extended-state="0" />
+    <frame x="1440" y="22" width="2560" height="1367" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29753602" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -364,17 +360,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/object-action-create-record.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-39.62963" vertical-offset="40" max-vertical-offset="1260">
-          <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile-card.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -550,8 +535,19 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3682664" vertical-offset="1709" max-vertical-offset="2730">
+        <state vertical-scroll-proportion="-77.22222" vertical-offset="0" max-vertical-offset="2730">
           <caret line="139" column="30" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object-action-create-record.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6637168" vertical-offset="0" max-vertical-offset="1260">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
           <folding />
         </state>
       </provider>

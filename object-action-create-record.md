@@ -2,6 +2,9 @@
 layout: module
 title: Module 10&#58; Creating a Child Record with an Object Action
 ---
+Object Actions provide a way to quickly access common tasks related to a specific object. In this module, 
+you create an Object Action for the Expense Report object. The action allows the user to create a new 
+expense for the current expense report.
 
 ## Step 1: Create the Object Action
 
@@ -32,9 +35,7 @@ title: Module 10&#58; Creating a Child Record with an Object Action
 
 1. In the **Publisher Actions** section, click the **override the global publisher layout** link
 
-1. Click **Actions**
-
-1. Drag the **Add Expense** action to the **Publisher Actions** section (before Post)
+1. Click **Actions** and drag the **Add Expense** action to the **Publisher Actions** section (before Post)
 
     ![](images/object_publisher_actions.png) 
 
@@ -52,7 +53,7 @@ title: Module 10&#58; Creating a Child Record with an Object Action
 
 1. Tap **Add Expense**
 
-    ![](images/s1_object_publisher.png) 
+    ![](images/s1_object_publisher_add.png) 
 
 1. Enter an expense
 
