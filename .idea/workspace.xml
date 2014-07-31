@@ -2,63 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79a9f043-9e26-470e-8c8f-689616ec66cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chatter-feed.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/manage-expenses-in-s1.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/manage-expenses-in-s1.md" afterPath="$PROJECT_DIR$/enter-expenses-in-s1.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/expense_details.png" afterPath="$PROJECT_DIR$/_site/images/expense_details.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/expense_details.png" afterPath="$PROJECT_DIR$/images/expense_details.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/expense_new.png" afterPath="$PROJECT_DIR$/_site/images/expense_new.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/expense_new.png" afterPath="$PROJECT_DIR$/images/expense_new.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/mobile_card.png" afterPath="$PROJECT_DIR$/_site/images/mobile_card.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/mobile_card.png" afterPath="$PROJECT_DIR$/images/mobile_card.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/mobile_layout.png" afterPath="$PROJECT_DIR$/_site/images/mobile_layout.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/mobile_layout.png" afterPath="$PROJECT_DIR$/images/mobile_layout.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/new_expense.png" afterPath="$PROJECT_DIR$/_site/images/new_expense.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/new_expense.png" afterPath="$PROJECT_DIR$/images/new_expense.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/object_action_layout.png" afterPath="$PROJECT_DIR$/_site/images/object_action_layout.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/object_action_layout.png" afterPath="$PROJECT_DIR$/images/object_action_layout.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/object_action_update_layout.png" afterPath="$PROJECT_DIR$/_site/images/object_action_update_layout.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/object_action_update_layout.png" afterPath="$PROJECT_DIR$/images/object_action_update_layout.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/object_action_update_publisher.png" afterPath="$PROJECT_DIR$/_site/images/object_action_update_publisher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/object_action_update_publisher.png" afterPath="$PROJECT_DIR$/images/object_action_update_publisher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/object_publisher_actions.png" afterPath="$PROJECT_DIR$/_site/images/object_publisher_actions.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/object_publisher_actions.png" afterPath="$PROJECT_DIR$/images/object_publisher_actions.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/s1_add_expense.png" afterPath="$PROJECT_DIR$/_site/images/s1_add_expense.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/s1_add_expense.png" afterPath="$PROJECT_DIR$/images/s1_add_expense.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/s1_mobile_layout.png" afterPath="$PROJECT_DIR$/_site/images/s1_mobile_layout.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/s1_mobile_layout.png" afterPath="$PROJECT_DIR$/images/s1_mobile_layout.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/images/s1_object_publisher.png" afterPath="$PROJECT_DIR$/_site/images/s1_object_publisher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/s1_object_publisher.png" afterPath="$PROJECT_DIR$/images/s1_object_publisher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/bootstrap-header.html" afterPath="$PROJECT_DIR$/_includes/bootstrap-header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/create-compact-layout.html" afterPath="$PROJECT_DIR$/_site/create-compact-layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-compact-layout.md" afterPath="$PROJECT_DIR$/create-compact-layout.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/create-expense-object.html" afterPath="$PROJECT_DIR$/_site/create-expense-object.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-expense-object.md" afterPath="$PROJECT_DIR$/create-expense-object.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/create-expenses-tab.html" afterPath="$PROJECT_DIR$/_site/create-expenses-tab.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-expenses-tab.md" afterPath="$PROJECT_DIR$/create-expenses-tab.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/create-global-action.html" afterPath="$PROJECT_DIR$/_site/create-global-action.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-global-action.md" afterPath="$PROJECT_DIR$/create-global-action.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/create-mobile-layout.html" afterPath="$PROJECT_DIR$/_site/create-mobile-layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-mobile-layout.md" afterPath="$PROJECT_DIR$/create-mobile-layout.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/developer-edition.html" afterPath="$PROJECT_DIR$/_site/developer-edition.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer-edition.md" afterPath="$PROJECT_DIR$/developer-edition.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.md" afterPath="$PROJECT_DIR$/index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/install-salesforce1-app.html" afterPath="$PROJECT_DIR$/_site/install-salesforce1-app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install-salesforce1-app.md" afterPath="$PROJECT_DIR$/install-salesforce1-app.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/mobile-card.html" afterPath="$PROJECT_DIR$/_site/mobile-card.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile-card.md" afterPath="$PROJECT_DIR$/mobile-card.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/module.html" afterPath="$PROJECT_DIR$/_layouts/module.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/next.html" afterPath="$PROJECT_DIR$/_site/next.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/next.md" afterPath="$PROJECT_DIR$/next.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/object-action-create-record.html" afterPath="$PROJECT_DIR$/_site/object-action-create-record.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/object-action-create-record.md" afterPath="$PROJECT_DIR$/object-action-create-record.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/object-action-update-record.html" afterPath="$PROJECT_DIR$/_site/object-action-update-record.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/object-action-update-record.md" afterPath="$PROJECT_DIR$/object-action-update-record.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/related-objects.html" afterPath="$PROJECT_DIR$/_site/related-objects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/related-objects.md" afterPath="$PROJECT_DIR$/related-objects.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="salesforce1-app-tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49056605" vertical-offset="0" max-vertical-offset="795">
-              <caret line="20" column="170" selection-start-line="20" selection-start-column="170" selection-end-line="20" selection-end-column="170" />
+            <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="720">
+              <caret line="20" column="224" selection-start-line="20" selection-start-column="224" selection-end-line="20" selection-end-column="224" />
               <folding />
             </state>
           </provider>
@@ -140,14 +86,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="next.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="next.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/next.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="615">
-              <caret line="12" column="255" selection-start-line="12" selection-start-column="161" selection-end-line="12" selection-end-column="255" />
+            <state vertical-scroll-proportion="0.24621212" vertical-offset="0" max-vertical-offset="792">
+              <caret line="12" column="216" selection-start-line="12" selection-start-column="216" selection-end-line="12" selection-end-column="216" />
               <folding />
             </state>
           </provider>
@@ -183,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/_layouts/module.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-18.75" vertical-offset="390" max-vertical-offset="1185">
-              <caret line="56" column="166" selection-start-line="56" selection-start-column="166" selection-end-line="56" selection-end-column="166" />
+              <caret line="56" column="220" selection-start-line="56" selection-start-column="220" selection-end-line="56" selection-end-column="220" />
               <folding />
             </state>
           </provider>
@@ -232,9 +178,9 @@
         <option value="$PROJECT_DIR$/object-action-update-record.md" />
         <option value="$PROJECT_DIR$/_includes/bootstrap-header.html" />
         <option value="$PROJECT_DIR$/index.md" />
-        <option value="$PROJECT_DIR$/next.md" />
-        <option value="$PROJECT_DIR$/_layouts/module.html" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
+        <option value="$PROJECT_DIR$/_layouts/module.html" />
+        <option value="$PROJECT_DIR$/next.md" />
       </list>
     </option>
   </component>
@@ -807,17 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/next.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="615">
-          <caret line="12" column="255" selection-start-line="12" selection-start-column="161" selection-end-line="12" selection-end-column="255" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -829,18 +764,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/module.html">
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.75" vertical-offset="390" max-vertical-offset="1185">
-          <caret line="56" column="166" selection-start-line="56" selection-start-column="166" selection-end-line="56" selection-end-column="166" />
+        <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="720">
+          <caret line="20" column="224" selection-start-line="20" selection-start-column="224" selection-end-line="20" selection-end-column="224" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+    <entry file="file://$PROJECT_DIR$/_layouts/module.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49056605" vertical-offset="0" max-vertical-offset="795">
-          <caret line="20" column="170" selection-start-line="20" selection-start-column="170" selection-end-line="20" selection-end-column="170" />
+        <state vertical-scroll-proportion="-18.75" vertical-offset="390" max-vertical-offset="1185">
+          <caret line="56" column="220" selection-start-line="56" selection-start-column="220" selection-end-line="56" selection-end-column="220" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/next.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24621212" vertical-offset="0" max-vertical-offset="792">
+          <caret line="12" column="216" selection-start-line="12" selection-start-column="216" selection-end-line="12" selection-end-column="216" />
           <folding />
         </state>
       </provider>
