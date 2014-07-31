@@ -13,9 +13,9 @@ needed. In this module, you create a compact layout for the expense object.
 
 1. In the **Compact Layouts** section, click the **New** button
 
-1. For **Label**, specify **Expense Compact Layout**
+1. Specify **Expense Compact Layout** as the **Label**
 
-1. For **Name**, keep the generated value **Expense&#95;Compact_Layout**
+1. Specify **Expense&#95;Compact_Layout** as the **Name**
  
 1. Add **Expense Id**, **Category**, **Expense Date**, and **Amount** to the **Selected Fields** list 
 
@@ -38,7 +38,7 @@ needed. In this module, you create a compact layout for the expense object.
 
 ## Step 3: Test the Application
 
-1. In the Salesforce1 mobile app, tap the menu icon ![](images/hamburger.png) (upper left corner)
+1. In the Salesforce1 Mobile App, tap the menu icon ![](images/hamburger.png) (upper left corner)
  
 1. In the menu, tap **Expenses** under **Recent**
  
@@ -54,6 +54,6 @@ you selected in the compact layout.
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
 <a href="create-mobile-layout.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
-<a href="create-global-action.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
+<a href="chatter-feed.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>

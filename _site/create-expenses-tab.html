@@ -49,13 +49,13 @@
             <a class="navbar-brand" href="index.html">Salesforce1 App Tutorial</a>
         </div>
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a
-                        href="https://github.com/ccoenraets/salesforce-developer-workshop"><img
-                        src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>
-                    GitHub
-                    Project</a></li>
-            </ul>
+            <!--<ul class="nav navbar-nav navbar-right">-->
+                <!--<li><a-->
+                        <!--href="https://github.com/ccoenraets/salesforce1-app-tutorial"><img-->
+                        <!--src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>-->
+                    <!--GitHub-->
+                    <!--Project</a></li>-->
+            <!--</ul>-->
         </div><!--/.nav-collapse -->
     </div>
 </div>
@@ -68,11 +68,9 @@
     <div class="col-xs-12 col-sm-8">
         <h1>Module 4&#58; Creating the Expenses Tab</h1>
         <!--<hr/>-->
-        <p>In this module, you create a Tab to provide access to the Expense object both in the full Salesforce.com app in your 
-computer&#39;s browser and in the Salesforce1 mobile app. You also create an Application to provide quick access to the 
-Expenses tab while working in the full Salesforce.com app. </p>
+        <p>In this module, you create a Tab to provide access to the Expense object both in the Salesforce.com application in your computer&#39;s browser and in the Salesforce1 Mobile App. You also create an Application to provide quick access to the Expenses tab while working in the Salesforce.com application in your computer&#39;s browser. </p>
 
-<p><img src="images/expenses_app.jpg" alt=""></p>
+<p><img src="images/expenses_app.png" alt=""></p>
 
 <h2>Step 1: Creating a Tab</h2>
 
@@ -91,7 +89,7 @@ Expenses tab while working in the full Salesforce.com app. </p>
 full Salesforce.com browser app.</p>
 
 <blockquote>
-<p>The concept of App as a way to organize Tabs is not used in the Salesforce1 mobile app.</p>
+<p>The concept of App as a way to organize Tabs is not used in the Salesforce1 Mobile App.</p>
 </blockquote>
 
 <ol>
@@ -101,12 +99,12 @@ full Salesforce.com browser app.</p>
 <li><p>Enter <strong>Expenses</strong> for both the App Label and App Name, and click <strong>Next</strong></p></li>
 <li><p>Accept the default App Logo and click <strong>Next</strong></p></li>
 <li><p>Add the <strong>Expenses</strong> tab to the <strong>Selected Tabs</strong> and click <strong>Next</strong></p></li>
-<li><p>Check the <strong>System Administrator</strong> profile and click <strong>Save</strong></p>
+<li><p>Check the <strong>Visible</strong> checkbox for the <strong>System Administrator</strong> profile and click <strong>Save</strong></p>
 
-<p><img src="images/sysadmin.jpg" alt=""></p></li>
+<p><img src="images/sysadmin.png" alt=""></p></li>
 <li><p>Select <strong>Expenses</strong> in the App selector (upper right corner of the screen)</p>
 
-<p><img src="images/expenses_app.jpg" alt=""></p>
+<p><img src="images/expenses_app.png" alt=""></p>
 
 <blockquote>
 <p>If the Expenses App doesn&#39;t appear in the App Selector, you probably forgot to assign it to the System 
@@ -130,7 +128,7 @@ check the System Administrator profile, and click Save.</p>
 <div class="col-sm-12">
 <a href="create-expense-object.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> 
 Previous</a>
-<a href="manage-expenses-in-s1.html" class="btn btn-default pull-right">Next <i class="glyphicon 
+<a href="enter-expenses-in-s1.html" class="btn btn-default pull-right">Next <i class="glyphicon 
 glyphicon-chevron-right"></i></a>
 </div>
 
@@ -170,21 +168,19 @@ glyphicon-chevron-right"></i></a>
                 <li><a href="install-salesforce1-app.html">Installing the Salesforce1 App</a></li>
                 <li><a href="create-expense-object.html">Creating the Expense Object</a></li>
                 <li><a href="create-expenses-tab.html">Creating the Expenses Tab</a></li>
-                <li><a href="manage-expenses-in-s1.html">Managing Expenses in the S1 Mobile App</a></li>
+                <li><a href="enter-expenses-in-s1.html">Entering Expenses in the S1 Mobile App</a></li>
                 <li><a href="create-mobile-layout.html">Creating a Mobile Layout</a></li>
                 <li><a href="create-compact-layout.html">Creating a Compact Layout</a></li>
+                <li><a href="chatter-feed.html">Uploading Receipts using the Chatter Feed</a></li>
                 <li><a href="create-global-action.html">Creating a Global Action</a></li>
                 <li><a href="related-objects.html">Working with Related Objects</a></li>
                 <li><a href="object-action-create-record.html">Creating a Child Record with an Object Action</a></li>
                 <li><a href="object-action-update-record.html">Updating a Record with an Object Action</a></li>
                 <li><a href="mobile-card.html">Working with Mobile Cards</a></li>
+                <li><a href="next.html">Next Steps</a></li>
             </ol>
-            <hr/>
-            <div style="margin: -8px 0 12px 14px">
-                <a href="next.html">Next Steps</a>
-            </div>
         </div>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="Salesforce 1 App Tutorial for Developers">Tweet</a>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="New #Salesforce1 Mobile App Tutorial: Build an expense report app with no code #S1AppTutorial">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
     </div>

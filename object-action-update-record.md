@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 11&#58; Updating a Record with an Object Action
+title: Module 12&#58; Updating a Record with an Object Action
 ---
 In this module, 
 you create another Object Action for the Expense Report object. The action allows the user to quickly change the status
@@ -21,11 +21,11 @@ the current expense report.
 
 1. Click **Save**
 
-1. Drag the **Status** field to the Layout (after Expense Report Name)
+1. Drag the **Status** field to the Layout (after Expense Report Name), and click **Save**
  
     ![](images/object_action_update_layout.png) 
 
-1. Click **Save** (upper left) 
+
 
 ## Step 2: Create a Predefined Field Value
 
@@ -43,15 +43,13 @@ the current expense report.
 
 1. In the **Page Layouts** section, click the **Edit** link to the left of **Expense Report Layout**
 
-1. Click **Actions**
-
-1. Drag the **Submit** action to the **Publisher Actions** section (after Add Expense)
+1. Click **Actions**, drag the **Submit Report** action to the **Publisher Actions** section (after Add Expense), 
+and click **Save**
 
     ![](images/object_action_update_publisher.png) 
 
-1. Click **Save** (upper left)
 
-## Step 3: Test the Application
+## Step 4: Test the Application
 
 1. Tap the menu icon ![](images/hamburger.png) (upper left corner)
  
@@ -65,7 +63,7 @@ the current expense report.
 
     ![](images/s1_object_publisher.png) 
 
-1. Tap the **Submit** button (upper right)
+1. Notice that the status has been changed to **Submitted**. Tap the **Submit** button (upper right).
 
  
 

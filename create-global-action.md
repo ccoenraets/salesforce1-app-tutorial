@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 8&#58; Creating a Global Action
+title: Module 9&#58; Creating a Global Action
 ---
 Global actions provide another way to quickly access common tasks. In this module, 
 you create a global action that allows the user 
@@ -48,7 +48,7 @@ to the Publisher Actions section (before the **Post** action)
 
 ## Step 4: Test the Application
 
-1. In the Salesforce1 mobile app, tap the menu icon ![](images/hamburger.png) (upper left corner)
+1. In the Salesforce1 Mobile App, tap the menu icon ![](images/hamburger.png) (upper left corner)
 
 1. Select **Feed** in the menu
 
@@ -63,7 +63,7 @@ to the Publisher Actions section (before the **Post** action)
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="create-compact-layout.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+<a href="chatter-feed.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
 <a href="related-objects.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>

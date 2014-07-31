@@ -14,9 +14,9 @@ device.
 
 1. In the **Page Layouts** section, click the **New** button
 
-1. For **Existing Page Layout**, specify **Expense Layout**
+1. Select **Expense Layout** in the **Existing Page Layout** dropdown 
 
-1. For **Page Layout Name**, Specify **Expense Mobile Layout**
+1. Specify **Expense Mobile Layout** as the **Page Layout Name** 
 
 1. Click **Save**
 
@@ -54,7 +54,7 @@ Layout To Use** dropdown list.
  
 1. In the menu, tap **Expenses** under **Recent**
  
-1. Tap an expense in the list to see the details screen
+1. Tap an expense in the list to see the details
 
 1. Swipe up to hide the record highlights header
 
@@ -71,7 +71,7 @@ fields.
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="manage-expenses-in-s1.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+<a href="enter-expenses-in-s1.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
 <a href="create-compact-layout.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>

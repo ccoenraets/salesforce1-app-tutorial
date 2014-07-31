@@ -2,11 +2,9 @@
 layout: module
 title: Module 4&#58; Creating the Expenses Tab
 ---
-In this module, you create a Tab to provide access to the Expense object both in the full Salesforce.com app in your 
-computer's browser and in the Salesforce1 mobile app. You also create an Application to provide quick access to the 
-Expenses tab while working in the full Salesforce.com app. 
+In this module, you create a Tab to provide access to the Expense object both in the Salesforce.com application in your computer's browser and in the Salesforce1 Mobile App. You also create an Application to provide quick access to the Expenses tab while working in the Salesforce.com application in your computer's browser. 
 
-![](images/expenses_app.jpg)
+![](images/expenses_app.png)
 
 ## Step 1: Creating a Tab
 
@@ -28,7 +26,7 @@ Expenses tab while working in the full Salesforce.com app.
 A Salesforce App is a group of Tabs that makes it easy for users to access a set of related features in the 
 full Salesforce.com browser app.
 
-> The concept of App as a way to organize Tabs is not used in the Salesforce1 mobile app.
+> The concept of App as a way to organize Tabs is not used in the Salesforce1 Mobile App.
 
 
 1. In **Setup** mode, select **Build** > **Create** > **Apps**
@@ -43,13 +41,13 @@ full Salesforce.com browser app.
 
 1. Add the **Expenses** tab to the **Selected Tabs** and click **Next**
 
-1. Check the **System Administrator** profile and click **Save**
+1. Check the **Visible** checkbox for the **System Administrator** profile and click **Save**
 
-  ![](images/sysadmin.jpg)
+  ![](images/sysadmin.png)
 
 1. Select **Expenses** in the App selector (upper right corner of the screen)
 
-    ![](images/expenses_app.jpg)
+    ![](images/expenses_app.png)
 
   > If the Expenses App doesn't appear in the App Selector, you probably forgot to assign it to the System 
   Administrator profile. In Setup, select Build > Create > App, click Edit next to Expenses, 
@@ -72,7 +70,7 @@ full Salesforce.com browser app.
 <div class="col-sm-12">
 <a href="create-expense-object.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> 
 Previous</a>
-<a href="manage-expenses-in-s1.html" class="btn btn-default pull-right">Next <i class="glyphicon 
+<a href="enter-expenses-in-s1.html" class="btn btn-default pull-right">Next <i class="glyphicon 
 glyphicon-chevron-right"></i></a>
 </div>
 </div>

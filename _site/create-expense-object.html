@@ -49,13 +49,13 @@
             <a class="navbar-brand" href="index.html">Salesforce1 App Tutorial</a>
         </div>
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a
-                        href="https://github.com/ccoenraets/salesforce-developer-workshop"><img
-                        src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>
-                    GitHub
-                    Project</a></li>
-            </ul>
+            <!--<ul class="nav navbar-nav navbar-right">-->
+                <!--<li><a-->
+                        <!--href="https://github.com/ccoenraets/salesforce1-app-tutorial"><img-->
+                        <!--src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>-->
+                    <!--GitHub-->
+                    <!--Project</a></li>-->
+            <!--</ul>-->
         </div><!--/.nav-collapse -->
     </div>
 </div>
@@ -76,10 +76,10 @@
 <li><p>Login into your Developer Edition account</p></li>
 <li><p>Click the <strong>Setup</strong> link (upper right corner)</p>
 
-<p><img src="images/setup.jpg" alt=""></p></li>
+<p><img src="images/setup.png" alt=""></p></li>
 <li><p>In the left navigation, select <strong>Build</strong> &gt; <strong>Create</strong> &gt; <strong>Objects</strong></p>
 
-<p><img src="images/custom-object.jpg" alt=""></p></li>
+<p><img src="images/custom-object.png" alt=""></p></li>
 <li><p>Click <strong>New Custom Object</strong>, and define the Expense object as follows (accept the default values for the properties 
 that are not mentioned below):</p>
 
@@ -114,16 +114,6 @@ that are not mentioned below):</p>
 <p><img src="images/category_field.jpg" alt=""></p>
 
 <p>Click <strong>Next</strong>, <strong>Next</strong>, <strong>Save &amp; New</strong></p></li>
-<li><p>Create an <strong>Expense Date</strong> field defined as follows:</p>
-
-<ul>
-<li>Data Type: <strong>Date</strong></li>
-<li>Field Label: <strong>Expense Date</strong></li>
-<li>Field Name: <strong>Expense_Date</strong></li>
-<li>Required: <strong>Checked</strong></li>
-</ul>
-
-<p>Click <strong>Next</strong>, <strong>Next</strong>, <strong>Save &amp; New</strong></p></li>
 <li><p>Create an <strong>Amount</strong> field defined as follows:</p>
 
 <ul>
@@ -133,6 +123,17 @@ that are not mentioned below):</p>
 <li>Decimal Places: <strong>2</strong></li>
 <li>Field Name: <strong>Amount</strong></li>
 <li>Required: <strong>Checked</strong></li>
+</ul>
+
+<p>Click <strong>Next</strong>, <strong>Next</strong>, <strong>Save &amp; New</strong></p></li>
+<li><p>Create an <strong>Expense Date</strong> field defined as follows:</p>
+
+<ul>
+<li>Data Type: <strong>Date</strong></li>
+<li>Field Label: <strong>Expense Date</strong></li>
+<li>Field Name: <strong>Expense_Date</strong></li>
+<li>Required: <strong>Checked</strong></li>
+<li>Default Value: <strong>Today()</strong></li>
 </ul>
 
 <p>Click <strong>Next</strong>, <strong>Next</strong>, <strong>Save &amp; New</strong></p></li>
@@ -191,21 +192,19 @@ glyphicon-chevron-right"></i></a>
                 <li><a href="install-salesforce1-app.html">Installing the Salesforce1 App</a></li>
                 <li><a href="create-expense-object.html">Creating the Expense Object</a></li>
                 <li><a href="create-expenses-tab.html">Creating the Expenses Tab</a></li>
-                <li><a href="manage-expenses-in-s1.html">Managing Expenses in the S1 Mobile App</a></li>
+                <li><a href="enter-expenses-in-s1.html">Entering Expenses in the S1 Mobile App</a></li>
                 <li><a href="create-mobile-layout.html">Creating a Mobile Layout</a></li>
                 <li><a href="create-compact-layout.html">Creating a Compact Layout</a></li>
+                <li><a href="chatter-feed.html">Uploading Receipts using the Chatter Feed</a></li>
                 <li><a href="create-global-action.html">Creating a Global Action</a></li>
                 <li><a href="related-objects.html">Working with Related Objects</a></li>
                 <li><a href="object-action-create-record.html">Creating a Child Record with an Object Action</a></li>
                 <li><a href="object-action-update-record.html">Updating a Record with an Object Action</a></li>
                 <li><a href="mobile-card.html">Working with Mobile Cards</a></li>
+                <li><a href="next.html">Next Steps</a></li>
             </ol>
-            <hr/>
-            <div style="margin: -8px 0 12px 14px">
-                <a href="next.html">Next Steps</a>
-            </div>
         </div>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="Salesforce 1 App Tutorial for Developers">Tweet</a>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="New #Salesforce1 Mobile App Tutorial: Build an expense report app with no code #S1AppTutorial">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
     </div>

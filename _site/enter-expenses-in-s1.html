@@ -49,13 +49,13 @@
             <a class="navbar-brand" href="index.html">Salesforce1 App Tutorial</a>
         </div>
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a
-                        href="https://github.com/ccoenraets/salesforce-developer-workshop"><img
-                        src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>
-                    GitHub
-                    Project</a></li>
-            </ul>
+            <!--<ul class="nav navbar-nav navbar-right">-->
+                <!--<li><a-->
+                        <!--href="https://github.com/ccoenraets/salesforce1-app-tutorial"><img-->
+                        <!--src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>-->
+                    <!--GitHub-->
+                    <!--Project</a></li>-->
+            <!--</ul>-->
         </div><!--/.nav-collapse -->
     </div>
 </div>
@@ -66,9 +66,9 @@
 <div class="row">
 
     <div class="col-xs-12 col-sm-8">
-        <h1>Module 5&#58; Managing Expenses in the Mobile App</h1>
+        <h1>Module 5&#58; Entering Expenses in the Mobile App</h1>
         <!--<hr/>-->
-        <p>When you create a Tab for an object, that object becomes automatically available in the Salesforce1 Mobile App. In 
+        <p>When you create a Tab for an object, the object becomes automatically available in the Salesforce1 Mobile App. In 
 this module, you experiment with viewing, creating, and editing expenses in the Salesforce1 Mobile App.</p>
 
 <h2>Step 1: Create an Expense in Salesforce1</h2>
@@ -77,13 +77,13 @@ this module, you experiment with viewing, creating, and editing expenses in the 
 <li><p>Open the Salesforce1 app on your mobile device </p>
 
 <blockquote>
-<p>You can also emulate the Salesforce1 mobile app in your computer browser as
+<p>You can also emulate the Salesforce1 Mobile App in your computer browser as
 explained in <a href="install-salesforce1-app.html">Module 2</a>.</p>
 </blockquote></li>
 <li><p>Tap the menu icon <img src="images/hamburger.png" alt=""> (upper left corner)</p>
 
 <blockquote>
-<p>Understand <strong>Click</strong> instead of <strong>Tap</strong> in the remaining of this tutorial if you are emulating the Salesforce1 app
+<p>Use <strong>Clicks</strong> instead of <strong>Taps</strong> in the remaining of this tutorial if you are emulating the Salesforce1 Mobile App
  in your computer browser. </p>
 </blockquote></li>
 <li><p>In the menu, tap <strong>More...</strong> under <strong>Recent</strong></p></li>
@@ -100,7 +100,28 @@ explained in <a href="install-salesforce1-app.html">Module 2</a>.</p>
 <li><p>Tap Save (upper right corner)</p></li>
 </ol>
 
-<h2>Step 2: Pin Expenses at the Top of the List</h2>
+<h2>Step 2: Adding Useful Information to the List Views</h2>
+
+<ol>
+<li><p>In the Salesforce.com application in your browser, click the Expenses tab, and click the <strong>Edit</strong> link to edit the <strong>All</strong> view</p>
+
+<p><img src="images/view_edit.png" alt=""></p></li>
+<li><p>In the <strong>Select Fields to Display</strong> section, add <strong>Expense Id</strong>, <strong>Category</strong>, <strong>Expense Date</strong>, and <strong>Amount</strong> to the <strong>Selected Fields</strong>, and click <strong>Save</strong>    </p>
+
+<p><img src="images/view_fields.png" alt=""></p></li>
+<li><p>In the Salesforce1 Mobile App, go back to the list of expenses and tap <strong>All</strong></p>
+
+<blockquote>
+<p>If you don&#39;t see the All option, pull (swipe down and release) the list to refresh it</p>
+</blockquote>
+
+<p><img src="images/expense_list_all.png" alt=""></p></li>
+<li><p>The view loads with the fields you specified in the view definition. You can click an expense to see details.</p>
+
+<p><img src="images/s1_all_view.png" alt=""></p></li>
+</ol>
+
+<h2>Step 3: Pin Expenses at the Top of the List</h2>
 
 <p>For faster access, you can pin frequently used items at the top of the <strong>Recent</strong> menu item: you will no longer need 
 to go find an object deep under the <strong>More...</strong> item.  </p>
@@ -108,14 +129,14 @@ to go find an object deep under the <strong>More...</strong> item.  </p>
 <p><img src="images/pin_expenses.png" alt=""></p>
 
 <ol>
-<li><p>In the full site, click the Search button in the header</p>
+<li><p>In the Salesforce.com application in your browser, click the <strong>Search</strong> button in the header</p>
 
 <blockquote>
 <p>You don&#39;t need to type anything in the search box: we just need the Search Results by Records to appear in the 
 left navigation.  </p>
 </blockquote></li>
 <li><p>In the <strong>Search Results</strong> (left navigation), mouse over <strong>Expenses</strong>, and click the Pin button</p></li>
-<li><p>In the Salesforce1 mobile app, tap the menu icon <img src="images/hamburger.png" alt=""> (upper left corner)</p></li>
+<li><p>In the Salesforce1 Mobile App, tap the menu icon <img src="images/hamburger.png" alt=""> (upper left corner)</p></li>
 <li><p>If <strong>Expenses</strong> doesn&#39;t appear as the first item under <strong>Recent</strong>, pull (swipe down and release) the menu to 
 refresh it</p>
 
@@ -164,21 +185,19 @@ refresh it</p>
                 <li><a href="install-salesforce1-app.html">Installing the Salesforce1 App</a></li>
                 <li><a href="create-expense-object.html">Creating the Expense Object</a></li>
                 <li><a href="create-expenses-tab.html">Creating the Expenses Tab</a></li>
-                <li><a href="manage-expenses-in-s1.html">Managing Expenses in the S1 Mobile App</a></li>
+                <li><a href="enter-expenses-in-s1.html">Entering Expenses in the S1 Mobile App</a></li>
                 <li><a href="create-mobile-layout.html">Creating a Mobile Layout</a></li>
                 <li><a href="create-compact-layout.html">Creating a Compact Layout</a></li>
+                <li><a href="chatter-feed.html">Uploading Receipts using the Chatter Feed</a></li>
                 <li><a href="create-global-action.html">Creating a Global Action</a></li>
                 <li><a href="related-objects.html">Working with Related Objects</a></li>
                 <li><a href="object-action-create-record.html">Creating a Child Record with an Object Action</a></li>
                 <li><a href="object-action-update-record.html">Updating a Record with an Object Action</a></li>
                 <li><a href="mobile-card.html">Working with Mobile Cards</a></li>
+                <li><a href="next.html">Next Steps</a></li>
             </ol>
-            <hr/>
-            <div style="margin: -8px 0 12px 14px">
-                <a href="next.html">Next Steps</a>
-            </div>
         </div>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="Salesforce 1 App Tutorial for Developers">Tweet</a>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="New #Salesforce1 Mobile App Tutorial: Build an expense report app with no code #S1AppTutorial">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
     </div>

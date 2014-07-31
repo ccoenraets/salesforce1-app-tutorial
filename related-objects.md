@@ -1,9 +1,9 @@
 ---
 layout: module
-title: Module 9&#58; Working with Related Objects
+title: Module 10&#58; Working with Related Objects
 ---
 Salesforce1 makes it easy to navigate through related objects. In this module, you create a new Expense Report 
-object and you define a Master-Detail Relationship between Expense Report and Expense. You then use the Salesforce1 
+object, and you define a Master-Detail Relationship between Expense Report and Expense. You then use the Salesforce1 
 Mobile App to create expenses that belong to an expense report. You can then visualize expenses by expense report, and
  see the expense report total.
 
@@ -37,7 +37,7 @@ properties that are not mentioned below):
 
 ## Step 2: Define the Master-Detail Relationship
 
-1. In the full Salesforce.com app in your browser, **delete all the expenses** to avoid constraint issues
+1. In the Salesforce.com app in your browser, **delete all the expenses** to avoid constraint issues
 
 1. In Setup, select **Build** > **Create** > **Objects** and click the **Expense** link
 
@@ -55,7 +55,7 @@ follows:
 
 ## Step 3: Define a Roll-Up Summary Field 
 
-To calculate and display the total of each expense report, add a Roll-Up field to the Expense Report object:
+To calculate and display the total of each expense report, add a Roll-Up Summary field to the Expense Report object:
 
 1. In Setup, select **Build** > **Create** > **Objects** and click the **Expense Report** link
 
@@ -74,8 +74,8 @@ follows:
 
 ## Step 4: Creating a Tab
 
-In this step, you create a Tab to provide access to the **Expense Report** object both in the full Salesforce.com app
- in your browser and in the Salesforce1 mobile app.
+In this step, you create a Tab to provide access to the **Expense Report** object both in the Salesforce.com app
+ in your browser and in the Salesforce1 Mobile App.
 
 1. In **Setup** mode, select **Build** > **Create** > **Tabs**
 
@@ -103,12 +103,12 @@ icon
 
     ![](images/expense_report_new.png)
  
-1. Click Save (upper right corner). The Expense Report details screen appears.
+1. Click **Save** (upper right corner). The Expense Report details screen appears.
 
     ![](images/expense_report_details.png)
 
     > If you get a message indicating that "The page you are trying to access is not available on mobile devices", 
-close the Salesforce1 Mobile App and restart it. This will only happen once during development.
+close the Salesforce1 Mobile App and restart it. This will only happen once and it will only happen during development.
 
 1. Tap the menu icon ![](images/hamburger.png) (upper left corner)
  
@@ -118,7 +118,9 @@ close the Salesforce1 Mobile App and restart it. This will only happen once duri
  
 1. Go back to the expense report details view and notice that the Total field includes the new expenses
 
-1. Swipe left and notice that **Expenses** automatically appears in the Related lists. 
+    > If the total has not been updated pull (swipe down and release) the view to refresh it.
+
+1. Swipe left and notice that the **Expenses** related list automatically appears 
 
     ![](images/expense_report_swipe_left.png)
     ![](images/related_lists.png)
@@ -146,12 +148,28 @@ to go find an object deep under the **More...** item.
 
 1. In the **Search Results** (left navigation), mouse over **Expense Reports**, and click the Pin button
 
-1. In the Salesforce1 mobile app, tap the menu icon ![](images/hamburger.png) (upper left corner)
+1. In the Salesforce1 Mobile App, tap the menu icon ![](images/hamburger.png) (upper left corner)
 
 1. If **Expense Reports** doesn't appear as the first item under **Recent**, pull (swipe down and release) the menu to 
 refresh it
 
     ![](images/s1_pin_expense_reports.png)
+
+
+## Step 7: Modify the New Expense Global Action Layout
+
+In a Master-Detail Relationship, every child record must have a parent. However, the **New Expense** Global Action 
+Layout you created in [Module 9](create-global-action.html) does not include the **Expense Report** field to let the user specify 
+the parent. To add the **Expense Report** field to the New Expense Global Action layout:
+
+1. In **Setup** mode, select **Build** > **Create** > **Global Actions** > **Actions**
+
+1. Click **Layout** to the left of **New Expense**
+
+1. Drag the **Expense Report** field to the top of the layout and click **Save** 
+
+    ![](images/new_expense_action_layout.png)
+
 
 
 ## Extra Credits

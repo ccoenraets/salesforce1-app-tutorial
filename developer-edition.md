@@ -4,7 +4,7 @@ title: Module 1&#58; Creating a Developer Edition Account
 ---
 In this module, you create a Developer Edition Account that provides you with a full-featured but isolated Salesforce environment to perform the exercises in this tutorial.
 
-> If you already signed up for a Developer Edition account, you can skip the instructions below and go directly to 
+> If you already have a recent Developer Edition account, you can skip the instructions below and go directly to 
 [Module 2](install-salesforce1-app.html).
 
 

@@ -49,13 +49,13 @@
             <a class="navbar-brand" href="index.html">Salesforce1 App Tutorial</a>
         </div>
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a
-                        href="https://github.com/ccoenraets/salesforce-developer-workshop"><img
-                        src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>
-                    GitHub
-                    Project</a></li>
-            </ul>
+            <!--<ul class="nav navbar-nav navbar-right">-->
+                <!--<li><a-->
+                        <!--href="https://github.com/ccoenraets/salesforce1-app-tutorial"><img-->
+                        <!--src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>-->
+                    <!--GitHub-->
+                    <!--Project</a></li>-->
+            <!--</ul>-->
         </div><!--/.nav-collapse -->
     </div>
 </div>
@@ -71,9 +71,9 @@
         <p>In this module, you install the Salesforce1 Mobile Application on your device.</p>
 
 <blockquote>
-<p>If you already installed Salesforce1 on your device, logout from the application, 
-and login again using your credentials for the developer edition you created in Module 1. You can then skip this 
-module and go directly to <a href="create-expense-object.html">Module 3</a>.</p>
+<p>If you have already installed Salesforce1 on your device, logout from the application, 
+and login again using your credentials for the developer edition you created in <a href="developer-edition.html">Module 1</a>. You can then skip the 
+instructions below and go directly to <a href="create-expense-object.html">Module 3</a>.</p>
 </blockquote>
 
 <h2>Step 1: Install the Salesforce1 Mobile App</h2>
@@ -83,7 +83,7 @@ module and go directly to <a href="create-expense-object.html">Module 3</a>.</p>
 computer&#39;s browser. Instructions are provided in Step 2 below.</p>
 </blockquote>
 
-<p>To install the Salesforce1 mobile app, you need one of the following devices:</p>
+<p>To install the Salesforce1 Mobile App, you need one of the following devices:</p>
 
 <ul>
 <li>iPhone or iPad with iOS 7 or later</li>
@@ -96,7 +96,7 @@ computer&#39;s browser. Instructions are provided in Step 2 below.</p>
 <li><p>In the mobile device&#39;s browser, open <a href="http://www.salesforce.com/mobile">http://www.salesforce.com/mobile</a>, 
 and install the Salesforce1 application for your platform</p></li>
 <li><p>Once installed, open the Salesforce1 app</p></li>
-<li><p>Enter your credentials for the Developer Edition you created in Module 1</p>
+<li><p>Enter your credentials for the Developer Edition you created in <a href="developer-edition.html">Module 1</a></p>
 
 <p><img src="images/s1_feed.png" alt=""></p></li>
 </ol>
@@ -107,7 +107,11 @@ and install the Salesforce1 application for your platform</p></li>
 you can also emulate the Salesforce1 app in your computer&#39;s browser:</p>
 
 <ol>
-<li><p>Open a browser on your computer</p></li>
+<li><p>Open a browser on your computer</p>
+
+<blockquote>
+<p>Google Chrome is recommended to emulate the Salesforce1 app on your computer</p>
+</blockquote></li>
 <li><p>Login into your Developer Edition account</p></li>
 <li><p>Modify the URL:</p>
 
@@ -117,6 +121,18 @@ you can also emulate the Salesforce1 app in your computer&#39;s browser:</p>
 </ul>
 
 <p><img src="images/oneapp.png" alt=""></p></li>
+<li><p>For a more accurate representation of the application on a mobile device, you can also use the new Google Chrome device emulation features.</p>
+
+<ul>
+<li>In Chrome, click <strong>View &gt; Developer &gt; Developer Tools</strong></li>
+<li>Click the <strong>Show Drawer</strong> button (upper right corner in the Developer Tools panel)</li>
+<li>Click the <strong>Emulation</strong> tab</li>
+<li>Select your device and click <strong>Emulate</strong></li>
+<li>Refresh the page</li>
+<li>Click the <strong>Reset</strong> button to stop emulating the device</li>
+</ul>
+
+<p><img src="images/device_emulation.png" alt=""></p></li>
 </ol>
 
 <div class="row" style="margin-top:40px;">
@@ -162,21 +178,19 @@ glyphicon-chevron-right"></i></a>
                 <li><a href="install-salesforce1-app.html">Installing the Salesforce1 App</a></li>
                 <li><a href="create-expense-object.html">Creating the Expense Object</a></li>
                 <li><a href="create-expenses-tab.html">Creating the Expenses Tab</a></li>
-                <li><a href="manage-expenses-in-s1.html">Managing Expenses in the S1 Mobile App</a></li>
+                <li><a href="enter-expenses-in-s1.html">Entering Expenses in the S1 Mobile App</a></li>
                 <li><a href="create-mobile-layout.html">Creating a Mobile Layout</a></li>
                 <li><a href="create-compact-layout.html">Creating a Compact Layout</a></li>
+                <li><a href="chatter-feed.html">Uploading Receipts using the Chatter Feed</a></li>
                 <li><a href="create-global-action.html">Creating a Global Action</a></li>
                 <li><a href="related-objects.html">Working with Related Objects</a></li>
                 <li><a href="object-action-create-record.html">Creating a Child Record with an Object Action</a></li>
                 <li><a href="object-action-update-record.html">Updating a Record with an Object Action</a></li>
                 <li><a href="mobile-card.html">Working with Mobile Cards</a></li>
+                <li><a href="next.html">Next Steps</a></li>
             </ol>
-            <hr/>
-            <div style="margin: -8px 0 12px 14px">
-                <a href="next.html">Next Steps</a>
-            </div>
         </div>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="Salesforce 1 App Tutorial for Developers">Tweet</a>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="New #Salesforce1 Mobile App Tutorial: Build an expense report app with no code #S1AppTutorial">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
     </div>

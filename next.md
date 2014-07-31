@@ -10,9 +10,11 @@ Here are a few things you can do next:
 
 - If you found this tutorial helpful, let other people know about it:
 
-    <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce-developer-workshop" data-text="Salesforce Developer Workshop: A new fast-track tutorial to #Salesforce development">Tweet</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="New #Salesforce1 Mobile App Tutorial: Build an expense report app with no code #S1AppTutorial">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
+
+- To learn more about the programmatic aspects of the Salesforce1 platform, check out the [Salesforce Developer Tutorial](http://ccoenraets.github.io/salesforce-developer-workshop/)
 
 - Check out the [Salesforce Developer Workbooks](https://developer.salesforce.com/page/Force.com_workbook) to learn 
 more about specific topics

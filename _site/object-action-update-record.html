@@ -49,13 +49,13 @@
             <a class="navbar-brand" href="index.html">Salesforce1 App Tutorial</a>
         </div>
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a
-                        href="https://github.com/ccoenraets/salesforce-developer-workshop"><img
-                        src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>
-                    GitHub
-                    Project</a></li>
-            </ul>
+            <!--<ul class="nav navbar-nav navbar-right">-->
+                <!--<li><a-->
+                        <!--href="https://github.com/ccoenraets/salesforce1-app-tutorial"><img-->
+                        <!--src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>-->
+                    <!--GitHub-->
+                    <!--Project</a></li>-->
+            <!--</ul>-->
         </div><!--/.nav-collapse -->
     </div>
 </div>
@@ -66,7 +66,7 @@
 <div class="row">
 
     <div class="col-xs-12 col-sm-8">
-        <h1>Module 11&#58; Updating a Record with an Object Action</h1>
+        <h1>Module 12&#58; Updating a Record with an Object Action</h1>
         <!--<hr/>-->
         <p>In this module, 
 you create another Object Action for the Expense Report object. The action allows the user to quickly change the status
@@ -88,10 +88,9 @@ the current expense report.</p>
 
 <p><img src="images/object_action_update.png" alt=""> </p></li>
 <li><p>Click <strong>Save</strong></p></li>
-<li><p>Drag the <strong>Status</strong> field to the Layout (after Expense Report Name)</p>
+<li><p>Drag the <strong>Status</strong> field to the Layout (after Expense Report Name), and click <strong>Save</strong></p>
 
 <p><img src="images/object_action_update_layout.png" alt=""> </p></li>
-<li><p>Click <strong>Save</strong> (upper left) </p></li>
 </ol>
 
 <h2>Step 2: Create a Predefined Field Value</h2>
@@ -109,14 +108,13 @@ the current expense report.</p>
 <ol>
 <li><p>In Setup, select <strong>Build</strong> &gt; <strong>Create</strong> &gt; <strong>Objects</strong> and click the <strong>Expense Report</strong> link</p></li>
 <li><p>In the <strong>Page Layouts</strong> section, click the <strong>Edit</strong> link to the left of <strong>Expense Report Layout</strong></p></li>
-<li><p>Click <strong>Actions</strong></p></li>
-<li><p>Drag the <strong>Submit</strong> action to the <strong>Publisher Actions</strong> section (after Add Expense)</p>
+<li><p>Click <strong>Actions</strong>, drag the <strong>Submit Report</strong> action to the <strong>Publisher Actions</strong> section (after Add Expense), 
+and click <strong>Save</strong></p>
 
 <p><img src="images/object_action_update_publisher.png" alt=""> </p></li>
-<li><p>Click <strong>Save</strong> (upper left)</p></li>
 </ol>
 
-<h2>Step 3: Test the Application</h2>
+<h2>Step 4: Test the Application</h2>
 
 <ol>
 <li><p>Tap the menu icon <img src="images/hamburger.png" alt=""> (upper left corner)</p></li>
@@ -126,7 +124,7 @@ the current expense report.</p>
 <li><p>Tap <strong>Submit Report</strong></p>
 
 <p><img src="images/s1_object_publisher.png" alt=""> </p></li>
-<li><p>Tap the <strong>Submit</strong> button (upper right)</p></li>
+<li><p>Notice that the status has been changed to <strong>Submitted</strong>. Tap the <strong>Submit</strong> button (upper right).</p></li>
 </ol>
 
 <div class="row" style="margin-top:40px;">
@@ -171,21 +169,19 @@ the current expense report.</p>
                 <li><a href="install-salesforce1-app.html">Installing the Salesforce1 App</a></li>
                 <li><a href="create-expense-object.html">Creating the Expense Object</a></li>
                 <li><a href="create-expenses-tab.html">Creating the Expenses Tab</a></li>
-                <li><a href="manage-expenses-in-s1.html">Managing Expenses in the S1 Mobile App</a></li>
+                <li><a href="enter-expenses-in-s1.html">Entering Expenses in the S1 Mobile App</a></li>
                 <li><a href="create-mobile-layout.html">Creating a Mobile Layout</a></li>
                 <li><a href="create-compact-layout.html">Creating a Compact Layout</a></li>
+                <li><a href="chatter-feed.html">Uploading Receipts using the Chatter Feed</a></li>
                 <li><a href="create-global-action.html">Creating a Global Action</a></li>
                 <li><a href="related-objects.html">Working with Related Objects</a></li>
                 <li><a href="object-action-create-record.html">Creating a Child Record with an Object Action</a></li>
                 <li><a href="object-action-update-record.html">Updating a Record with an Object Action</a></li>
                 <li><a href="mobile-card.html">Working with Mobile Cards</a></li>
+                <li><a href="next.html">Next Steps</a></li>
             </ol>
-            <hr/>
-            <div style="margin: -8px 0 12px 14px">
-                <a href="next.html">Next Steps</a>
-            </div>
         </div>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="Salesforce 1 App Tutorial for Developers">Tweet</a>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="New #Salesforce1 Mobile App Tutorial: Build an expense report app with no code #S1AppTutorial">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
     </div>

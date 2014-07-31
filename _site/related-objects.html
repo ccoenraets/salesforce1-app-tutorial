@@ -49,13 +49,13 @@
             <a class="navbar-brand" href="index.html">Salesforce1 App Tutorial</a>
         </div>
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a
-                        href="https://github.com/ccoenraets/salesforce-developer-workshop"><img
-                        src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>
-                    GitHub
-                    Project</a></li>
-            </ul>
+            <!--<ul class="nav navbar-nav navbar-right">-->
+                <!--<li><a-->
+                        <!--href="https://github.com/ccoenraets/salesforce1-app-tutorial"><img-->
+                        <!--src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>-->
+                    <!--GitHub-->
+                    <!--Project</a></li>-->
+            <!--</ul>-->
         </div><!--/.nav-collapse -->
     </div>
 </div>
@@ -66,10 +66,10 @@
 <div class="row">
 
     <div class="col-xs-12 col-sm-8">
-        <h1>Module 9&#58; Working with Related Objects</h1>
+        <h1>Module 10&#58; Working with Related Objects</h1>
         <!--<hr/>-->
         <p>Salesforce1 makes it easy to navigate through related objects. In this module, you create a new Expense Report 
-object and you define a Master-Detail Relationship between Expense Report and Expense. You then use the Salesforce1 
+object, and you define a Master-Detail Relationship between Expense Report and Expense. You then use the Salesforce1 
 Mobile App to create expenses that belong to an expense report. You can then visualize expenses by expense report, and
  see the expense report total.</p>
 
@@ -108,7 +108,7 @@ properties that are not mentioned below):</p>
 <h2>Step 2: Define the Master-Detail Relationship</h2>
 
 <ol>
-<li><p>In the full Salesforce.com app in your browser, <strong>delete all the expenses</strong> to avoid constraint issues</p></li>
+<li><p>In the Salesforce.com app in your browser, <strong>delete all the expenses</strong> to avoid constraint issues</p></li>
 <li><p>In Setup, select <strong>Build</strong> &gt; <strong>Create</strong> &gt; <strong>Objects</strong> and click the <strong>Expense</strong> link</p></li>
 <li><p>In the <strong>Custom Fields &amp; Relationships</strong> section, click <strong>New</strong>, and create an <strong>Expense Report</strong> field defined as 
 follows:</p>
@@ -127,7 +127,7 @@ follows:</p>
 
 <h2>Step 3: Define a Roll-Up Summary Field</h2>
 
-<p>To calculate and display the total of each expense report, add a Roll-Up field to the Expense Report object:</p>
+<p>To calculate and display the total of each expense report, add a Roll-Up Summary field to the Expense Report object:</p>
 
 <ol>
 <li><p>In Setup, select <strong>Build</strong> &gt; <strong>Create</strong> &gt; <strong>Objects</strong> and click the <strong>Expense Report</strong> link</p></li>
@@ -149,8 +149,8 @@ follows:</p>
 
 <h2>Step 4: Creating a Tab</h2>
 
-<p>In this step, you create a Tab to provide access to the <strong>Expense Report</strong> object both in the full Salesforce.com app
- in your browser and in the Salesforce1 mobile app.</p>
+<p>In this step, you create a Tab to provide access to the <strong>Expense Report</strong> object both in the Salesforce.com app
+ in your browser and in the Salesforce1 Mobile App.</p>
 
 <ol>
 <li><p>In <strong>Setup</strong> mode, select <strong>Build</strong> &gt; <strong>Create</strong> &gt; <strong>Tabs</strong></p></li>
@@ -174,19 +174,23 @@ icon</p></li>
 <li><p>Tap <strong>New</strong>, and enter a new expense report</p>
 
 <p><img src="images/expense_report_new.png" alt=""></p></li>
-<li><p>Click Save (upper right corner). The Expense Report details screen appears.</p>
+<li><p>Click <strong>Save</strong> (upper right corner). The Expense Report details screen appears.</p>
 
 <p><img src="images/expense_report_details.png" alt=""></p>
 
 <blockquote>
 <p>If you get a message indicating that &quot;The page you are trying to access is not available on mobile devices&quot;, 
-close the Salesforce1 Mobile App and restart it. This will only happen once during development.</p>
+close the Salesforce1 Mobile App and restart it. This will only happen once and it will only happen during development.</p>
 </blockquote></li>
 <li><p>Tap the menu icon <img src="images/hamburger.png" alt=""> (upper left corner)</p></li>
 <li><p>In the menu, tap <strong>Expenses</strong> under <strong>Recent</strong></p></li>
 <li><p>Tap <strong>New</strong> and add a couple of expenses for the expense report you just created</p></li>
-<li><p>Go back to the expense report details view and notice that the Total field includes the new expenses</p></li>
-<li><p>Swipe left and notice that <strong>Expenses</strong> automatically appears in the Related lists. </p>
+<li><p>Go back to the expense report details view and notice that the Total field includes the new expenses</p>
+
+<blockquote>
+<p>If the total has not been updated pull (swipe down and release) the view to refresh it.</p>
+</blockquote></li>
+<li><p>Swipe left and notice that the <strong>Expenses</strong> related list automatically appears </p>
 
 <p><img src="images/expense_report_swipe_left.png" alt="">
 <img src="images/related_lists.png" alt=""></p></li>
@@ -215,11 +219,25 @@ to go find an object deep under the <strong>More...</strong> item.  </p>
 left navigation.  </p>
 </blockquote></li>
 <li><p>In the <strong>Search Results</strong> (left navigation), mouse over <strong>Expense Reports</strong>, and click the Pin button</p></li>
-<li><p>In the Salesforce1 mobile app, tap the menu icon <img src="images/hamburger.png" alt=""> (upper left corner)</p></li>
+<li><p>In the Salesforce1 Mobile App, tap the menu icon <img src="images/hamburger.png" alt=""> (upper left corner)</p></li>
 <li><p>If <strong>Expense Reports</strong> doesn&#39;t appear as the first item under <strong>Recent</strong>, pull (swipe down and release) the menu to 
 refresh it</p>
 
 <p><img src="images/s1_pin_expense_reports.png" alt=""></p></li>
+</ol>
+
+<h2>Step 7: Modify the New Expense Global Action Layout</h2>
+
+<p>In a Master-Detail Relationship, every child record must have a parent. However, the <strong>New Expense</strong> Global Action 
+Layout you created in <a href="create-global-action.html">Module 9</a> does not include the <strong>Expense Report</strong> field to let the user specify 
+the parent. To add the <strong>Expense Report</strong> field to the New Expense Global Action layout:</p>
+
+<ol>
+<li><p>In <strong>Setup</strong> mode, select <strong>Build</strong> &gt; <strong>Create</strong> &gt; <strong>Global Actions</strong> &gt; <strong>Actions</strong></p></li>
+<li><p>Click <strong>Layout</strong> to the left of <strong>New Expense</strong></p></li>
+<li><p>Drag the <strong>Expense Report</strong> field to the top of the layout and click <strong>Save</strong> </p>
+
+<p><img src="images/new_expense_action_layout.png" alt=""></p></li>
 </ol>
 
 <h2>Extra Credits</h2>
@@ -279,21 +297,19 @@ record highlight area looks like this:</p>
                 <li><a href="install-salesforce1-app.html">Installing the Salesforce1 App</a></li>
                 <li><a href="create-expense-object.html">Creating the Expense Object</a></li>
                 <li><a href="create-expenses-tab.html">Creating the Expenses Tab</a></li>
-                <li><a href="manage-expenses-in-s1.html">Managing Expenses in the S1 Mobile App</a></li>
+                <li><a href="enter-expenses-in-s1.html">Entering Expenses in the S1 Mobile App</a></li>
                 <li><a href="create-mobile-layout.html">Creating a Mobile Layout</a></li>
                 <li><a href="create-compact-layout.html">Creating a Compact Layout</a></li>
+                <li><a href="chatter-feed.html">Uploading Receipts using the Chatter Feed</a></li>
                 <li><a href="create-global-action.html">Creating a Global Action</a></li>
                 <li><a href="related-objects.html">Working with Related Objects</a></li>
                 <li><a href="object-action-create-record.html">Creating a Child Record with an Object Action</a></li>
                 <li><a href="object-action-update-record.html">Updating a Record with an Object Action</a></li>
                 <li><a href="mobile-card.html">Working with Mobile Cards</a></li>
+                <li><a href="next.html">Next Steps</a></li>
             </ol>
-            <hr/>
-            <div style="margin: -8px 0 12px 14px">
-                <a href="next.html">Next Steps</a>
-            </div>
         </div>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="Salesforce 1 App Tutorial for Developers">Tweet</a>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="New #Salesforce1 Mobile App Tutorial: Build an expense report app with no code #S1AppTutorial">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
     </div>

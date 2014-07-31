@@ -49,13 +49,13 @@
             <a class="navbar-brand" href="index.html">Salesforce1 App Tutorial</a>
         </div>
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a
-                        href="https://github.com/ccoenraets/salesforce-developer-workshop"><img
-                        src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>
-                    GitHub
-                    Project</a></li>
-            </ul>
+            <!--<ul class="nav navbar-nav navbar-right">-->
+                <!--<li><a-->
+                        <!--href="https://github.com/ccoenraets/salesforce1-app-tutorial"><img-->
+                        <!--src="images/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>-->
+                    <!--GitHub-->
+                    <!--Project</a></li>-->
+            <!--</ul>-->
         </div><!--/.nav-collapse -->
     </div>
 </div>
@@ -79,7 +79,7 @@
     <div class="container">
         <div class="row" style="text-align: center">
             <div style="margin-left: 30px;">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="Salesforce 1 App Tutorial for Developers">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://ccoenraets.github.io/salesforce1-app-tutorial" data-text="New #Salesforce1 Mobile App Tutorial: Build an expense report app with no code #S1AppTutorial">Tweet</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
             </div>
         </div>
@@ -88,8 +88,7 @@
 
 <div class="container">
     <p>In this tutorial, you create an expense report mobile application in Salesforce1. The application allows users to enter
- expenses, assign them to expense reports, and submit expense reports for approval. In the first part of the 
- tutorial, you build the entire application declaratively (without writing code). In the second part, you use code to add advanced features to the application. </p>
+ expenses, assign them to expense reports, and submit expense reports for approval. You build the entire application declaratively (without writing code). </p>
 
 <h2>What You Will Learn</h2>
 
@@ -97,13 +96,13 @@
 <li>Install the Salesforce1 Application</li>
 <li>Create Mobile Layouts</li>
 <li>Create Compact Layouts</li>
+<li>Use the Chatter feed </li>
+<li>Upload Images</li>
 <li>Create Global Actions</li>
 <li>Create Object Actions</li>
 <li>Create Mobile Cards</li>
 <li>Work with Related Lists</li>
 <li>Use Visualforce Pages in Salesforce1</li>
-<li>Capture pictures in a Salesforce1 App</li>
-<li>Capture the User Location in a Salesforce1 App</li>
 </ul>
 
 <h2>Prerequisites</h2>
@@ -116,30 +115,19 @@
 <h2>Device Requirements</h2>
 
 <blockquote>
-<p><strong>You don&#39;t need a mobile device to complete this tutorial:</strong> You can emulate the Salesforce1 mobile app in your 
+<p><strong>You don&#39;t need a mobile device to complete this tutorial:</strong> You can emulate the Salesforce1 Mobile App in your 
 computer&#39;s browser. Instructions are provided in <a href="install-salesforce1-app.html">Module 2</a>.</p>
 </blockquote>
 
-<p>To install the Salesforce1 mobile app, you need one of the following devices:</p>
+<p>To install the Salesforce1 Mobile App, you need one of the following devices:</p>
 
 <ul>
 <li>iPhone or iPad with iOS 7 or later</li>
 <li>Android device with Android 4.2 or later </li>
 </ul>
 
-<p>If your device is not supported to install the Salesforce1 mobile app, you can run Salesforce1 in
+<p>If your device is not supported to install the Salesforce1 Mobile App, you can run Salesforce1 in
  the device&#39;s browser on a larger number of devices. Consult <a href="http://help%0A.salesforce.com/apex/HTViewHelpDoc?id=sf1_requirements.htm">this document</a> for more information. </p>
-
-<h2>Browser Requirements</h2>
-
-<p>The following browsers are supported when working with the Developer Console (used for the programmatic modules only):</p>
-
-<ul>
-<li>Most recent version of Google Chrome</li>
-<li>Most recent version of Mozilla Firefox</li>
-<li>Most recent version of Safari</li>
-<li>Internet Explorer 9 or higher</li>
-</ul>
 
 <h2>Reporting Issues</h2>
 
@@ -149,6 +137,10 @@ into any problem or if you have a suggestion to improve this tutorial.</li>
 <li>You can also use the Comments section at the bottom of each module to ask a question or report a problem.</li>
 </ul>
 
+<h2>Related Tutorial</h2>
+
+<p>To learn more about the programmatic aspects of the Salesforce1 platform, check out the <a href="http://ccoenraets.github.io/salesforce-developer-workshop/">Salesforce Developer Workshop</a>.</p>
+
 <h2>Credits and Acknowledgments</h2>
 
 <p>An Expense Management application is a great use case for a tutorial: It&#39;s a well understood problem, not too
@@ -157,7 +149,7 @@ into any problem or if you have a suggestion to improve this tutorial.</li>
 <p>I also want to acknowledge Andres Perez who wrote an <a href="http://www.eltoro.it/apex/ArticleViewer?id=a07A000000T3GOpIAN">expense tracking sample application</a> for the Salesforce1 App way before me. Our implementations are very 
 different which is a testament to the versatility of the Salesforce1 Platform: Andres&#39; implementation is more 
 code-centric, and 
-leverages jQuery Mobile. I encourage you to check it out. This implementation is mostly declarative.</p>
+leverages jQuery Mobile. This implementation is entirely declarative.</p>
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">

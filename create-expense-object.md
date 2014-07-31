@@ -10,11 +10,11 @@ In this module, you create the Expense object used to track expenses.
 
 1. Click the **Setup** link (upper right corner)
 
-  ![](images/setup.jpg)
+  ![](images/setup.png)
 
 1. In the left navigation, select **Build** > **Create** > **Objects**
 
-  ![](images/custom-object.jpg)
+  ![](images/custom-object.png)
 
 1. Click **New Custom Object**, and define the Expense object as follows (accept the default values for the properties 
 that are not mentioned below):
@@ -45,14 +45,6 @@ that are not mentioned below):
 
   Click **Next**, **Next**, **Save & New**
 
-1. Create an **Expense Date** field defined as follows:
-  - Data Type: **Date**
-  - Field Label: **Expense Date**
-  - Field Name: **Expense_Date**
-  - Required: **Checked**
-
-  Click **Next**, **Next**, **Save & New**
-
 1. Create an **Amount** field defined as follows:
   - Data Type: **Currency**
   - Field Label: **Amount**
@@ -60,6 +52,15 @@ that are not mentioned below):
   - Decimal Places: **2**
   - Field Name: **Amount**
   - Required: **Checked**
+
+  Click **Next**, **Next**, **Save & New**
+
+1. Create an **Expense Date** field defined as follows:
+  - Data Type: **Date**
+  - Field Label: **Expense Date**
+  - Field Name: **Expense_Date**
+  - Required: **Checked**
+  - Default Value: **Today()**
 
   Click **Next**, **Next**, **Save & New**
 

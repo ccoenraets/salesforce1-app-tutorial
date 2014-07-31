@@ -1,10 +1,10 @@
 ---
 layout: module
-title: Module 12&#58; Working with Mobile Cards
+title: Module 13&#58; Working with Mobile Cards
 ---
-Mobile Cards are useful to display additional information about a record. They appear in the *related information* 
+Mobile Cards are useful to display additional information about a record. They appear in the related information 
 screen that is displayed when you swipe left on a record details view. In this module, 
-you add a mobile card to Expense Mobile Layout to display a summary of the parent expense report.
+you add a mobile card to the Expense Mobile Layout to display a summary of the parent expense report.
 
 ## Step 1: Add the Mobile Card
 
@@ -12,16 +12,15 @@ you add a mobile card to Expense Mobile Layout to display a summary of the paren
 
 1. In the **Page Layouts** section, click **Edit** to the left of **Expense Mobile Layout**
 
-1. Select **Expanded Lookups**, and drag **Expense Report** to the **Mobile Card (Salesforce1 Only)** section
+1. Select **Expanded Lookups**, drag **Expense Report** to the **Mobile Card (Salesforce1 Only)** section, 
+and click **Save**
 
     ![](images/mobile_card.png) 
-
-1. Click **Save** (upper left)
 
 
 ## Step 2: Test the Application
 
-1. In the Salesforce1 mobile app, access the details view for an expense
+1. In the Salesforce1 Mobile App, access the details view for an expense
 
 1. Swipe left to see the mobile card showing the expense report this expense belongs to.
 
